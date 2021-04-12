@@ -1,0 +1,51 @@
+/** CSS grid imgs **/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "img1 img1 img2 Img5"
+        "img3 img4 img4 Img5"
+        ". . . .";
+}
+
+.Img5 {
+    grid-area: Img5;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+/**  carousel secciones CSS **/
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active {
+    display: inline-flex;
+}
+/* control image height */
+.card-img-top-250 {
+    max-height: 225px;
+    overflow: hidden;
+}
+/* smoother transitions */
+.carousel-inner > .carousel-item.next.left,
+.carousel-inner > .carousel-item.prev.right {
+    transition: all 1s ease;
+}
+div.col-md-10.p-4 {
+    background-color: #de1457;
+}
