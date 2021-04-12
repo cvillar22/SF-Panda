@@ -1,3 +1,17 @@
+* {
+  font-family: "Raleway", sans-serif; }
+
+footer {
+  background-color: #e61e27; }
+  footer p {
+    color: #fffffd; }
+  footer h4 {
+    color: #fffffd; }
+  footer .logos-redes {
+    display: flex; }
+    footer .logos-redes div {
+      padding-right: 1.5rem; }
+
 /** CSS grid imgs **/
 .grid-container {
   display: grid;
