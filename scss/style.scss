@@ -1,3 +1,27 @@
+@import "_variables.scss";
+// General Fonts
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+// Footer
+footer {
+    background-color: $rojoPanda;
+    p {
+        color: $blancoPanda;
+    }
+    h4 {
+        color: $blancoPanda;
+    }
+    .logos-redes {
+        display: flex;
+        div {
+            padding-right: 1.5rem;
+        }
+    }
+}
+
+//! ---Carousel---
 /** CSS grid imgs **/
 .grid-container {
     display: grid;
@@ -49,3 +73,4 @@
 div.col-md-10.p-4 {
     background-color: #de1457;
 }
+//! ---End Carousel---
