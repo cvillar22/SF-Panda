@@ -1,5 +1,5 @@
 @import "_variables.scss";
-// General Fonts
+//! General Fonts
 * {
     font-family: "Raleway", sans-serif;
 }
@@ -7,33 +7,84 @@ h1 {
     font-size: 50px;
     font-weight: 700;
 }
-
 h2 {
     font-size: 40px;
     font-weight: 700;
 }
-
 h3 {
     font-size: 35px;
     font-weight: 700;
 }
-
 h4 {
     font-size: 24px;
     font-weight: 400;
 }
-
 h5 {
     font-size: 20px;
     font-weight: 400;
 }
-
 p {
     font-size: 16px;
     font-weight: 400;
 }
 
-// Footer
+//! Clases funcionales generales
+.hidden {
+    display: hidden;
+}
+
+.noHover {
+    pointer-events: none;
+}
+
+//! General Botones
+.btn--black {
+    background-color: $negroPanda;
+    padding: 0.7rem 2.3rem;
+    border-radius: 2rem;
+    transition: all 300ms ease;
+    h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: $blancoPanda;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+.btn--black:hover {
+    background-color: $blancoPanda;
+    border-color: $blancoPanda;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    transition: 300ms ease;
+    h4 {
+        color: $negroPanda;
+    }
+}
+
+//! Banner 1 - Descargar Catálogo
+.banner--catalogo {
+    background-color: $amarilloPanda;
+    .row {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .divisionFoto {
+        img {
+            text-align: center;
+        }
+    }
+    .divisionTexto {
+        span {
+            font-weight: 400;
+        }
+        .textoRojo {
+            font-weight: 700;
+            color: $rojoPanda;
+        }
+    }
+}
+
+//! Footer
 footer {
     background-color: $rojoPanda;
     p {
