@@ -1,59 +1,110 @@
 * {
-  font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 footer {
-  background-color: #e61e27; }
-  footer p {
-    color: #fffffd; }
-  footer h4 {
-    color: #fffffd; }
-  footer .logos-redes {
-    display: flex; }
-    footer .logos-redes div {
-      padding-right: 1.5rem; }
-  footer .medio-de-pago {
-    display: flex; }
-    footer .medio-de-pago img {
-      padding-right: 1rem; }
+    background-color: #e61e27;
+}
+footer p {
+    color: #fffffd;
+}
+footer h4 {
+    color: #fffffd;
+}
+footer .logos-redes {
+    display: flex;
+}
+footer .logos-redes div {
+    padding-right: 1.5rem;
+}
+footer .medio-de-pago {
+    display: flex;
+}
+footer .medio-de-pago img {
+    padding-right: 1rem;
+}
 
 /** CSS grid imgs **/
 .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "img1 img1 img2 Img5" "img3 img4 img4 Img5" ". . . ."; }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "img1 img1 img2 Img5"
+        "img3 img4 img4 Img5"
+        ". . . .";
+}
 
 .Img5 {
-  grid-area: Img5; }
+    grid-area: Img5;
+}
 
 .img1 {
-  grid-area: img1; }
+    grid-area: img1;
+}
 
 .img2 {
-  grid-area: img2; }
+    grid-area: img2;
+}
 
 .img3 {
-  grid-area: img3; }
+    grid-area: img3;
+}
 
 .img4 {
-  grid-area: img4; }
+    grid-area: img4;
+}
 
 /**  carousel secciones CSS **/
 .carousel-item-prev,
 .carousel-item-next,
 .carousel-item.active {
-  display: inline-flex; }
+    display: inline-flex;
+}
 
 /* control image height */
 .card-img-top-250 {
-  max-height: 225px;
-  overflow: hidden; }
+    max-height: 225px;
+    overflow: hidden;
+}
 
 /* smoother transitions */
 .carousel-inner > .carousel-item.next.left,
 .carousel-inner > .carousel-item.prev.right {
-  transition: all 1s ease; }
+    transition: all 1s ease;
+}
 
 div.col-md-10.p-4 {
-  background-color: #de1457; }
+    background-color: #de1457;
+}
