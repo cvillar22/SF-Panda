@@ -3,6 +3,35 @@
 * {
     font-family: "Raleway", sans-serif;
 }
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 // Footer
 footer {
@@ -17,6 +46,12 @@ footer {
         display: flex;
         div {
             padding-right: 1.5rem;
+        }
+    }
+    .medio-de-pago {
+        display: flex;
+        img {
+            padding-right: 1rem;
         }
     }
 }

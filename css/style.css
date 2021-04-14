@@ -11,6 +11,10 @@ footer {
     display: flex; }
     footer .logos-redes div {
       padding-right: 1.5rem; }
+  footer .medio-de-pago {
+    display: flex; }
+    footer .medio-de-pago img {
+      padding-right: 1rem; }
 
 /** CSS grid imgs **/
 .grid-container {
