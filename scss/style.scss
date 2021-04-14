@@ -38,14 +38,16 @@ footer {
     background-color: $rojoPanda;
     p {
         color: $blancoPanda;
+        margin-bottom: 0.3rem;
     }
-    h4 {
-        color: $blancoPanda;
+    .footer--titulo {
+        font-weight: 500;
     }
+
     .logos-redes {
         display: flex;
         div {
-            padding-right: 1.5rem;
+            padding-right: 0.4rem;
         }
     }
     .medio-de-pago {

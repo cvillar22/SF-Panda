@@ -37,15 +37,16 @@ footer {
 }
 footer p {
     color: #fffffd;
+    margin-bottom: 0.3rem;
 }
-footer h4 {
-    color: #fffffd;
+footer .footer--titulo {
+    font-weight: 500;
 }
 footer .logos-redes {
     display: flex;
 }
 footer .logos-redes div {
-    padding-right: 1.5rem;
+    padding-right: 0.4rem;
 }
 footer .medio-de-pago {
     display: flex;
