@@ -15,31 +15,46 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Libre+Franklin:ital,wght@0,300;0,500;0,800;0,900;1,300;1,500;1,800&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-	<!-- !-------Navbar-------- -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 p-0 m-0">
-				<div class="fixed">
-					<div class="collapse" id="navbarToggleExternalContent">
-						<div class="bg-light" style="background-color: #de1457;">
-							<h5 class="text-white h4">Collapsed content</h5>
-							<span class="text-muted">Toggleable via the navbar brand.</span>
-						</div>
-					</div>
+<!-- !-------Navbar-------- -->
+<header>
+	<nav class="navbar navbar-light" style="background-color:#e61e27;">
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</nav>
+	<div class="menu-flotante hid" style="display: none;">
+		<div class="interno">
+			<div class="row">
+				<div class="col-4">
+					<button class="cerrar"><i class="fa fa-times"></i></button>
 				</div>
-				<nav class="navbar navbar-light" style="background-color: #de1457;">
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-				</nav>
+				<div class="col-8"><b>LOGO</b></div>
+				<div class="col-8 offset-sm-4">
+					<ul class="secciones1">
+						<li><a href="">Productos de temporada</a></li>
+						<li><a href="">Novedades</a></li>
+						<li><a href="">Promociones</a></li>
+						<li><a href="">Atencion al cliente</a></li>
+					</ul>
+					<ul class="secciones2">
+						<li><a href="">Hogar & Jardin</a></li>
+						<li><a href="">Moda & Belleza</a></li>
+						<li><a href="">Librería & Cotillon</a></li>
+						<li><a href="">Electrónica & Gaming</a></li>
+						<li><a href="">Juguetes</a></li>
+						<li><a href="">Deporte</a></li>
+						<li><a href="">Pet Shop</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
+</header>	
 	<!-- !-------End Navbar-------- -->
 
 	<!-- !------Banner 1------- -->
@@ -236,7 +251,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!--------------------------------end Codepen</!-->
 	<div class="container">
 		<div class="row">
@@ -254,12 +268,15 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<!--News Letters</!-->
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col">news letters</div>
+			<div class="col-md-12 newsLetters p-5">
+				<h3>¡Enterate primero!</h3>
+			</div>
 		</div>
 	</div>
-
+	<!--Footter</!-->
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -342,6 +359,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
 		crossorigin="anonymous"></script>
+	<script src="js/nav.js"></script>
 </body>
 
 </html>
