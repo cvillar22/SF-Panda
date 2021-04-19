@@ -164,3 +164,46 @@ button.close {
 /** News Letters */
 div.col-md-12.newsLetters {
   background-color: #fff854; }
+
+/*buscadpr*/
+.inner-addon {
+  position: relative; }
+
+.inner-addon .fa.fa-search {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none; }
+
+.left-addon {
+  left: 0px; }
+
+.left-addon input {
+  padding-left: 30px; }
+
+.form-control {
+  border-radius: 70px;
+  width: 300px;
+  height: 40px;
+  padding: 1px; }
+
+/*logo*/
+img.logo {
+  position: absolute;
+  display: inline-block;
+  left: 8.75%;
+  right: 78.06%;
+  top: 20%;
+  padding: 0px; }
+
+div.form-group {
+  position: relative; }
+
+h3.nuestrosProductos {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+h3.masElegidos {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
