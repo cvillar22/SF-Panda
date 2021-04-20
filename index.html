@@ -15,27 +15,32 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Libre+Franklin:ital,wght@0,300;0,500;0,800;0,900;1,300;1,500;1,800&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-<!-- !-------Navbar-------- -->
-<header container-fluid>
+	<!-- !-------Navbar-------- -->
+	<header container-fluid>
 		<nav class="navbar navbar-light" style="background-color:#e61e27;" class="row">
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+				data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div >
+			<div>
 				<img class="logo" src="img/logo.png" alt="logo">
 			</div>
 			<div class="form-group">
-			    <label class="control-label"> </label>
-			    <div class="inner-addon left-addon">
-			        <i class="fa fa-search"></i>
-			        <input type="text" class="form-control" placeholder="¿Qué estás buscando?" />
-			    </div>
-		    </div>
+				<label class="control-label"> </label>
+				<div class="inner-addon left-addon">
+					<i class="fa fa-search"></i>
+					<input type="text" class="form-control" placeholder="¿Qué estás buscando?" />
+				</div>
+			</div>
 		</nav>
 		<div class="menu-flotante hid" style="display: none;">
 			<div class="interno">
@@ -64,8 +69,30 @@
 				</div>
 			</div>
 		</div>
-</header>
+	</header>
 	<!-- !-------End Navbar-------- -->
+
+	<!-- !-------Popup-------- -->
+	<div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="pt-4 d-flex justify-content-center align-items-center modal-header">
+					<img src="img/panda-popup.png" class="pl-4 ml-auto modal-title" id="popupModalLabel"></img>
+					<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+						<img src="img/close-icon.png" alt="" width="44px">
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Aca va el body del modal</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- !-------End Popup-------- -->
 
 	<!-- !------Banner 1------- -->
 	<div class="container-fluid banner--catalogo">
@@ -78,7 +105,7 @@
 						Abril.</span>
 				</h2>
 				<h4 class="mb-4 noHover textoRojo">En SF Panda lo encontrás primero</h4>
-				<button class="btn--black">
+				<button type="button" class="btn--black" data-toggle="modal" data-target="#popupModal">
 					<h4>DESCARGAR CATÁLOGO</h4>
 				</button>
 			</div>
@@ -184,7 +211,8 @@
 									alt="Carousel 5">
 							</div>
 							<div class="card-body pt-2">
-								<h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1
+								<h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category
+									1
 								</h6>
 								<h2>
 									<a href="">This is a Blog Title.</a>
