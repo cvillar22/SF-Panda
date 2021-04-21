@@ -26,7 +26,7 @@ p {
   font-weight: 400; }
 
 .hidden {
-  display: hidden; }
+  display: none; }
 
 .noHover {
   pointer-events: none; }
@@ -50,6 +50,13 @@ p {
   transition: 300ms ease; }
   .btn--black:hover h4 {
     color: #252626; }
+
+.txt--yellow {
+  color: #fff854; }
+
+.txt--yellow:hover {
+  color: #252626;
+  background-color: #fff854; }
 
 .banner--catalogo {
   background-color: #fff854; }
@@ -76,22 +83,22 @@ p {
     .modal .modal-content .modal-footer p {
       font-size: 14px; }
 
-.modal form button {
-  color: #fff854;
+.modal #popupContent--1 form button {
   font-size: 24px;
   line-height: 0.9;
   padding: 0.5rem 1.1rem;
   position: relative;
   right: 50px; }
 
-.modal form button:hover {
-  color: #252626;
-  background-color: #fff854; }
-
-.modal form .input-email {
+.modal #popupContent--1 form .input-email {
   padding-left: 40px; }
-  .modal form .input-email input {
+  .modal #popupContent--1 form .input-email input {
     width: 253px; }
+
+.modal #popupContent--2 .modal-footer button {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.6rem 1.7rem; }
 
 footer {
   background-color: #e61e27; }

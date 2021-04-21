@@ -30,7 +30,7 @@ p {
 
 //! Clases funcionales generales
 .hidden {
-    display: hidden;
+    display: none;
 }
 
 .noHover {
@@ -59,6 +59,14 @@ p {
     h4 {
         color: $negroPanda;
     }
+}
+
+.txt--yellow {
+    color: $amarilloPanda;
+}
+.txt--yellow:hover {
+    color: $negroPanda;
+    background-color: $amarilloPanda;
 }
 
 //! Banner 1 - Descargar Catálogo
@@ -102,23 +110,29 @@ p {
             }
         }
     }
-    form {
-        button {
-            color: $amarilloPanda;
-            font-size: 24px;
-            line-height: 0.9;
-            padding: 0.5rem 1.1rem;
-            position: relative;
-            right: 50px;
+    #popupContent--1 {
+        form {
+            button {
+                font-size: 24px;
+                line-height: 0.9;
+                padding: 0.5rem 1.1rem;
+                position: relative;
+                right: 50px;
+            }
+            .input-email {
+                padding-left: 40px;
+                input {
+                    width: 253px;
+                }
+            }
         }
-        button:hover {
-            color: $negroPanda;
-            background-color: $amarilloPanda;
-        }
-        .input-email {
-            padding-left: 40px;
-            input {
-                width: 253px;
+    }
+    #popupContent--2 {
+        .modal-footer {
+            button {
+                font-size: 18px;
+                font-weight: 700;
+                padding: 0.6rem 1.7rem;
             }
         }
     }
