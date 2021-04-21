@@ -76,10 +76,11 @@
 	<div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<!--? Contenido parte 1 -->
-			<div class="modal-content hidden" id="popupContent--1">
+			<div class="modal-content" id="popupContent--1">
 				<div class="modal-header pt-4 d-flex justify-content-center align-items-center">
 					<img src="img/panda-popup.png" class="pl-5 ml-auto modal-title" id="popupModalLabel"></img>
-					<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+					<button type="button" class="close ml-auto" id="btnCloseModal" data-dismiss="modal"
+						aria-label="Close">
 						<img src="img/close-icon.png" alt="" width="44px">
 					</button>
 				</div>
@@ -91,24 +92,28 @@
 						<div class="form-row align-items-center justify-content-center">
 							<div class="input-email col-auto">
 								<label class="sr-only" for="emailInput"></label>
-								<input type="text" class="form-control mb-2 pl-3" id="emailInput"
+								<input type="email" class="form-control mb-2 pl-3" id="emailInput"
 									placeholder="Escribí tu e-mail acá">
 							</div>
 							<div class="col-auto">
-								<button type="submit" class="btn btn--black txt--yellow mb-2">✉</button>
+								<button type="submit" onclick="changeContent()" class="btn btn--black txt--yellow mb-2"
+									id="btnEmail">✉</button>
 							</div>
 							<div class="d-flex justify-content-center col-12">
-								<p id="txtCloseForm">No, gracias.</p>
+								<a href="#" class="deco-none" data-dismiss="modal">
+									<p id="txtCloseForm">No, gracias.</p>
+								</a>
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>
 			<!--? Contenido parte 2 -->
-			<div class="modal-content" id="popupContent--2">
+			<div class="modal-content hidden" id="popupContent--2">
 				<div class="modal-header pt-4 d-flex justify-content-center align-items-center">
 					<img src="img/panda-popup.png" class="pl-5 ml-auto modal-title" id="popupModalLabel"></img>
-					<button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+					<button type="button" class="close ml-auto" id="btnCloseModal" data-dismiss="modal"
+						aria-label="Close">
 						<img src="img/close-icon.png" alt="" width="44px">
 					</button>
 				</div>
@@ -116,7 +121,9 @@
 					<h4 class="text-center">HACE CLICK EN EL BOTÓN PARA DESCARGAR EL CATÁLOGO</h4>
 				</div>
 				<div class="modal-footer justify-content-center">
-					<button class="btn btn--black txt--yellow mb-2">Descargar ✔</button>
+					<a href="catalogo-compressed.pdf" download>
+						<button class="btn btn--black txt--yellow mb-2" id="btnDownload">Descargar ✔</button>
+					</a>
 				</div>
 			</div>
 		</div>
