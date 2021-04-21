@@ -64,6 +64,35 @@ p {
     font-weight: 700;
     color: #e61e27; }
 
+.modal .modal-content {
+  border: 15px solid #e61e27;
+  border-radius: 0; }
+  .modal .modal-content .modal-header {
+    border-bottom: 1px transparent; }
+  .modal .modal-content .modal-body {
+    padding-bottom: 6px; }
+  .modal .modal-content .modal-footer {
+    border-top: 1px transparent; }
+    .modal .modal-content .modal-footer p {
+      font-size: 14px; }
+
+.modal form button {
+  color: #fff854;
+  font-size: 24px;
+  line-height: 0.9;
+  padding: 0.5rem 1.1rem;
+  position: relative;
+  right: 50px; }
+
+.modal form button:hover {
+  color: #252626;
+  background-color: #fff854; }
+
+.modal form .input-email {
+  padding-left: 40px; }
+  .modal form .input-email input {
+    width: 253px; }
+
 footer {
   background-color: #e61e27; }
   footer p {

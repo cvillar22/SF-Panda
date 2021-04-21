@@ -84,6 +84,46 @@ p {
     }
 }
 
+//! Popup
+.modal {
+    .modal-content {
+        border: 15px solid $rojoPanda;
+        border-radius: 0;
+        .modal-header {
+            border-bottom: 1px transparent;
+        }
+        .modal-body {
+            padding-bottom: 6px;
+        }
+        .modal-footer {
+            border-top: 1px transparent;
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    form {
+        button {
+            color: $amarilloPanda;
+            font-size: 24px;
+            line-height: 0.9;
+            padding: 0.5rem 1.1rem;
+            position: relative;
+            right: 50px;
+        }
+        button:hover {
+            color: $negroPanda;
+            background-color: $amarilloPanda;
+        }
+        .input-email {
+            padding-left: 40px;
+            input {
+                width: 253px;
+            }
+        }
+    }
+}
+
 //! Footer
 footer {
     background-color: $rojoPanda;
