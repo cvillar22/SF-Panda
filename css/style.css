@@ -128,6 +128,14 @@ footer {
     footer .medio-de-pago img {
       padding-right: 1rem; }
 
+@media (max-width: 767px) {
+  .carousel-card {
+    height: 33%; } }
+
+@media (min-width: 768px) {
+  .carousel-card {
+    height: 100%; } }
+
 /** CSS grid imgs **/
 .grid-container {
   display: grid;
