@@ -274,7 +274,11 @@ button.close {
 div.col-md-12.newsLetters {
     background-color: #fff854;
 }
-/*buscadpr*/
+/*buscador*/
+#navSearch{
+    display: block;
+}
+
 .inner-addon {
     position: relative;
 }
@@ -291,8 +295,8 @@ div.col-md-12.newsLetters {
 }
 .form-control {
     border-radius: 70px;
-    width: 300px;
-    height: 40px;
+    width: 500px;
+    height: 60px;
     padding: 1px;
 }
 /*logo*/
