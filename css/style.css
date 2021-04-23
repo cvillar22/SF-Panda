@@ -136,6 +136,26 @@ footer {
   .carousel-card {
     height: 100%; } }
 
+.btn--carousel {
+  background-color: #fff854;
+  min-width: 283px;
+  min-height: 48px;
+  border-radius: 2rem;
+  transition: all 300ms ease; }
+  .btn--carousel h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #252626;
+    text-align: center;
+    margin-bottom: 0; }
+
+.btn--carousel:hover {
+  background-color: #252626;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  transition: 300ms ease; }
+  .btn--carousel:hover h4 {
+    color: #fff854; }
+
 /** CSS grid imgs **/
 .grid-container {
   display: grid;
