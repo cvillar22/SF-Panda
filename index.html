@@ -28,31 +28,42 @@
 	<!-- !-------Navbar-------- -->
 	<header container-fluid>
 		<nav class="navbar navbar-light" style="background-color:#e61e27;" class="row">
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+			<button class="navbar-toggler collapsed col-4" type="button" data-toggle="collapse"
 				data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+			<span>
 			<div>
 				<img class="logo" src="img/logo.png" alt="logo">
 			</div>
-			<div class="form-group" id="NavSearch">
+			</span>
+			<div class="form-group" id="NavSearch" class="col-4 justify-content-center p-4">
 				<label class="control-label"> </label>
 				<div class="inner-addon left-addon">
 					<i class="fa fa-search"></i>
 					<input type="text" class="form-control" placeholder="¿Qué estás buscando?" />
 				</div>
 			</div>
-				<div><i class='fas fa-question-circle' style='font-size:24px; color: #fff'></i></div>
-				<div><i class='fas fa-user' style='font-size:24px; color: #fff'></i></div>
-				<div><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div>
-				<div><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i></div>
+			<div class="iconosNav col-4 justify-content-center">
+				<button style="border:0px; background-color: transparent;"  class="btnQuestion">
+					<div class="iconoNav p-4"><i class='fas fa-question-circle' style='font-size:24px; color: #fff'></i></div>
+				</button>
+				<button style="border:0px; background-color: transparent;"  class="btnUser">
+					<div class="iconoNav p-4"><i class='fas fa-user' style='font-size:24px; color: #fff'></i></div>
+				</button>
+				<button style="border:0px; background-color: transparent;" class="btnHeart">
+					<div class="iconoNav p-4"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div></button>
+				<button style="border:0px; background-color: transparent;" class="btnCart">
+					<div class="iconoNav p-4"><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i></div>
+				</button>
+			</div>
 		</nav>
 		<div class="menu-flotante hid" style="display: none;">
 			<div class="interno">
 				<div class="row">
 					<div class="col-4">
-						<button class="cerrar"><i class="fa fa-times"></i></button>
+						<button style="border:0px; background-color: transparent;font-size:24px;" class="cerrar"><i class="fas fa-times"></i></button>
 					</div>
 					<div class="col-8"><b>LOGO</b></div>
 					<div class="col-8 offset-sm-4">

@@ -204,6 +204,15 @@ div.col-md-10.p-4 {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 248, 84)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); }
 
+button.navbar-toggler.collapsed.col-4 {
+  display: block;
+  position: absolute;
+  content: 40px;
+  padding: 0px;
+  border: none;
+  width: 100px;
+  height: 40px; }
+
 button.close {
   font-size: 50px;
   margin: 0;
@@ -223,7 +232,8 @@ div.col-md-12.newsLetters {
 .inner-addon .fa.fa-search {
   position: absolute;
   padding: 10px;
-  pointer-events: none; }
+  pointer-events: none;
+  margin-left: 10px; }
 
 .left-addon {
   left: 0px; }
@@ -233,18 +243,18 @@ div.col-md-12.newsLetters {
 
 .form-control {
   border-radius: 70px;
-  width: 500px;
-  height: 60px;
-  padding: 1px; }
+  width: 350px;
+  height: 45px;
+  padding: 1px;
+  margin-left: 10px; }
 
 /*logo*/
 img.logo {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  left: 8.75%;
+  left: 48.75%;
   right: 78.06%;
-  top: 20%;
-  padding: 0px; }
+  top: 20%; }
 
 div.form-group {
   position: relative; }
@@ -258,3 +268,12 @@ h3.masElegidos {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+div.iconosNav.col-4 {
+  display: inline;
+  position: flex;
+  text-align: center; }
+
+.iconoNav {
+  display: inline;
+  position: flex; }
