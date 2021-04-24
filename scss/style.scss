@@ -185,6 +185,9 @@ footer {
         height: 100%;
     }
 }
+.card {
+    border: transparent;
+}
 .btn--carousel {
     background-color: $amarilloPanda;
     min-width: 283px;
@@ -207,37 +210,42 @@ footer {
         color: $amarilloPanda;
     }
 }
+.carousel-control-next-icon {
+    //Flecha del carousel
+    background-image: url("https://img.icons8.com/material/96/000000/circled-chevron-right--v1.png");
+}
+.carousel-control-prev-icon {
+    background-image: url("https://img.icons8.com/material/96/000000/circled-chevron-left--v1.png");
+}
 
 /** CSS grid imgs **/
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1.1fr 1fr 1fr 0.7fr 1.2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-        "img1 img1 img2 Img5"
-        "img3 img4 img4 Img5"
-        ". . . .";
+        ". . . . . . . . . ."
+        "area5 area5 area5 area1 area1 area1 area2 area2 area2 area2"
+        "area5 area5 area5 area1 area1 area1 area2 area2 area2 area2"
+        "area5 area5 area5 area3 area3 area3 area3 area4 area4 area4"
+        "area5 area5 area5 area3 area3 area3 area3 area4 area4 area4"
+        ". . . . . . . . . .";
 }
-
-.Img5 {
-    grid-area: Img5;
+.area5 {
+    grid-area: area5;
 }
-
-.img1 {
-    grid-area: img1;
+.area1 {
+    grid-area: area1;
 }
-
-.img2 {
-    grid-area: img2;
+.area2 {
+    grid-area: area2;
 }
-
-.img3 {
-    grid-area: img3;
+.area3 {
+    grid-area: area3;
 }
-
-.img4 {
-    grid-area: img4;
+.area4 {
+    grid-area: area4;
 }
 
 /**  carousel secciones CSS **/
