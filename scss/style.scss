@@ -1,4 +1,8 @@
 @import "_variables.scss";
+html {
+    //Para el return-to-top
+    scroll-behavior: smooth;
+}
 //! General Fonts
 * {
     font-family: "Raleway", sans-serif;
@@ -104,6 +108,55 @@ p {
 .txt--yellow:hover {
     color: $negroPanda;
     background-color: $amarilloPanda;
+}
+
+//! Return to Top
+#return-to-top {
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    left: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    @media (max-width: 767px) {
+        width: 35px;
+        height: 35px;
+    }
+    text-decoration: none;
+    border-radius: 35px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    i {
+        color: $blancoPanda;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 13px;
+        @media (max-width: 767px) {
+            font-size: 15px;
+            left: 10.6px;
+            top: 5px;
+        }
+        font-size: 19px;
+        transition: all 0.4s ease;
+    }
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+    @media (max-width: 767px) {
+        top: 2px;
+    }
+}
+
+#return-to-top.active {
+    opacity: 1;
 }
 
 //! Banner 1 - Descargar Catálogo

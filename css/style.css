@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 * {
   font-family: "Raleway", sans-serif; }
 
@@ -90,6 +93,50 @@ p {
 .txt--yellow:hover {
   color: #313638;
   background-color: #f7d942; }
+
+#return-to-top {
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  left: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 35px;
+  opacity: 0;
+  transition: all 0.4s ease; }
+  @media (max-width: 767px) {
+    #return-to-top {
+      width: 35px;
+      height: 35px; } }
+  #return-to-top i {
+    color: #fffffd;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    transition: all 0.4s ease; }
+    @media (max-width: 767px) {
+      #return-to-top i {
+        font-size: 15px;
+        left: 10.6px;
+        top: 5px; } }
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9); }
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px; }
+  @media (max-width: 767px) {
+    #return-to-top:hover i {
+      top: 2px; } }
+
+#return-to-top.active {
+  opacity: 1; }
 
 .banner--catalogo {
   background-color: #f7d942; }
