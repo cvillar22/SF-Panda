@@ -74,6 +74,30 @@ p {
     }
 }
 
+.btn--salmon {
+    background-color: $salmonPanda;
+    padding: 0.7rem 2.3rem;
+    border: transparent;
+    border-radius: 2rem;
+    transition: all 300ms ease;
+    h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: $blancoPanda;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+.btn--salmon:hover {
+    background-color: $blancoPanda;
+    border-color: $blancoPanda;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    transition: 300ms ease;
+    h4 {
+        color: $salmonPanda;
+    }
+}
+
 .txt--yellow {
     color: $amarilloPanda;
 }
@@ -103,6 +127,19 @@ p {
             color: $rojoPanda;
         }
     }
+}
+
+//! Banner 2 - Banner Envios
+.banner--envios {
+    background-color: $negroPanda;
+    // .envios--content {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    h1 {
+        color: $blancoPanda;
+    }
+    // }
 }
 
 //! Popup
@@ -189,7 +226,7 @@ footer {
     border: transparent;
 }
 .btn--carousel {
-    background-color: $amarilloPanda;
+    background-color: $salmonPanda;
     min-width: 283px;
     min-height: 48px;
     border-radius: 2rem;
@@ -197,17 +234,17 @@ footer {
     h4 {
         font-size: 20px;
         font-weight: 500;
-        color: $negroPanda;
+        color: $blancoPanda;
         text-align: center;
         margin-bottom: 0;
     }
 }
 .btn--carousel:hover {
-    background-color: $negroPanda;
+    background-color: $amarilloPanda;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
     transition: 300ms ease;
     h4 {
-        color: $amarilloPanda;
+        color: $salmonPanda;
     }
 }
 .carousel-control-next-icon {
