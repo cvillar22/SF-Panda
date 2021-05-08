@@ -50,9 +50,31 @@
 					<div class="iconoNav p-4"><i class='fas fa-question-circle' style='font-size:24px; color: #fff'></i>
 					</div>
 				</button>
-				<button style="border:0px; background-color: transparent;" class="btnUser">
+				<button onclick="document.getElementById('id01').style.display='block'" style="border:0px; background-color: transparent;"style="border:0px; background-color: transparent;" class="btnUser">
 					<div class="iconoNav p-4"><i class='fas fa-user' style='font-size:24px; color: #fff'></i></div>
 				</button>
+				<div id="id01" class="modal">
+ 					  <form class="modal-content animate" action="/action_page.php" method="post">
+					    <div class="imgcontainer">
+					      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+					    </div>
+					    <div class="container">
+					      <label for="uname"><b>Usuario</b></label>
+					      <input type="text" placeholder="Enter Username" name="uname" required>
+
+					      <label for="psw"><b>Contraseña</b></label>
+					      <input type="password" placeholder="Enter Password" name="psw" required>
+					      <button class="btnSubLog" type="submit">Login</button>
+					      <label>
+					        <input type="checkbox" checked="checked" name="remember"> Recordarme
+					      </label>
+    					</div>
+						<div class="container" style="background-color:#f1f1f1">
+     						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+     				 		<span class="psw">Olvidé <a href="#">contraseña?</a></span>
+    					</div>
+ 					 </form>
+					</div>
 				<button style="border:0px; background-color: transparent;" class="btnHeart">
 					<div class="iconoNav p-4"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div>
 				</button>
@@ -216,31 +238,6 @@
 				</div>
 			</div>
 		</div>
-
-
-					<!--
-					<div class="col-8"><b>LOGO</b></div>
-					<div class="col-8 offset-sm-4">
-						<ul class="secciones1">
-							<li><a href="">Productos de temporada</a></li>
-							<li><a href="">Novedades</a></li>
-							<li><a href="">Promociones</a></li>
-							<li><a href="">Atencion al cliente</a></li>
-						</ul>
-						<ul class="secciones2">
-							<li><a href="">Hogar & Jardin</a></li>
-							<li><a href="">Moda & Belleza</a></li>
-							<li><a href="">Librería & Cotillon</a></li>
-							<li><a href="">Electrónica & Gaming</a></li>
-							<li><a href="">Juguetes</a></li>
-							<li><a href="">Deporte</a></li>
-							<li><a href="">Pet Shop</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	-->
 	</header>
 	<!-- !-------End Navbar-------- -->
 
@@ -552,6 +549,7 @@
 	<script src="js/nav.js"></script>
 	<script src="js/popup.js"></script>
 	<script src="js/return-to-top.js"></script>
+	<script src="js/login.js"></script>
 </body>
 
 </html>

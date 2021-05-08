@@ -428,7 +428,7 @@ div.col-md-12.newsLetters {
 
 .inner-addon .fa.fa-search {
   position: absolute;
-  padding: 10px;
+  padding: 20px;
   pointer-events: none;
   margin-left: 10px; }
 
@@ -438,12 +438,12 @@ div.col-md-12.newsLetters {
 .left-addon input {
   padding-left: 30px; }
 
-.form-control {
+input.form-control {
   border-radius: 70px;
-  width: 350px;
+  width: 400px;
   height: 45px;
-  padding: 1px;
-  margin-left: 10px; }
+  margin: 0px;
+  padding: 0px; }
 
 /*logo*/
 img.logo {
@@ -474,3 +474,107 @@ div.iconosNav.col-4 {
 .iconoNav {
   display: inline;
   position: flex; }
+
+/*login*/
+input[type=text], input[type=password] {
+  width: 150%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 70px;
+  text-align: center; }
+
+button:hover {
+  opacity: 0.8; }
+
+.cancelbtn {
+  width: 100px;
+  background-color: #ff351e;
+  border-radius: 70px;
+  color: #313638; }
+
+.btnSubLog {
+  width: 50%;
+  background-color: #313638;
+  border-radius: 70px;
+  color: #f7d942; }
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative; }
+
+.container {
+  padding: 16px; }
+
+span.psw {
+  float: right;
+  padding-top: 16px; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 40px; }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #e61e27;
+  width: 30%; }
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer; }
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none; }
+  .cancelbtn {
+    width: 100%;
+    color: #313638;
+    border-radius: 70px;
+    padding: 0; }
+  .btnSubLog {
+    width: 100%;
+    border-radius: 70px;
+    padding: 0; } }
