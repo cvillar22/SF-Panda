@@ -314,6 +314,93 @@ div.col-md-10.p-4 {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 248, 84)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); }
 
+div.col-8.offset-sm-4 {
+  margin-left: 20%;
+  padding: 0; }
+
+.logoMenu {
+  width: 80%;
+  height: 80%; }
+
+div.col-8 {
+  margin-top: 7px; }
+
+ul.secciones1 {
+  font-size: 0.85rem; }
+
+ul.secciones2 {
+  font-size: 0.85rem; }
+
+ul.secciones1 li {
+  position: relative; }
+
+ul.secciones2 li {
+  position: relative; }
+
+.submenu1 {
+  position: absolute;
+  background-color: white;
+  display: none; }
+
+.atCliente:hover + .submenu1 {
+  left: 140%;
+  width: 250px;
+  height: 395px;
+  display: block;
+  top: -150px;
+  padding-top: 75px;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-weight: 400; }
+
+.submenu2 {
+  position: absolute;
+  background-color: white;
+  display: none; }
+
+.hoYja:hover + .submenu2 {
+  left: 120%;
+  width: 500px;
+  height: 389px;
+  top: -200px;
+  font-weight: 400;
+  display: block;
+  padding-top: 75px;
+  border-left: 1px solid black; }
+
+.moYbe:hover + .submenu3 {
+  left: 130%;
+  width: 500px;
+  height: 389px;
+  top: -220px;
+  font-weight: 400;
+  display: block;
+  padding-top: 75px;
+  border-left: 1px solid black; }
+
+.liYco:hover + .submenu4 {
+  left: 120%;
+  width: 500px;
+  height: 388px;
+  top: -240px;
+  font-weight: 400;
+  display: block;
+  padding-top: 75px;
+  border-left: 1px solid black; }
+
+.submenu3 {
+  position: absolute;
+  background-color: white;
+  display: none; }
+
+.submenu4 {
+  position: absolute;
+  background-color: white;
+  display: none; }
+
+a {
+  color: black; }
+
 button.navbar-toggler.collapsed.col-4 {
   display: block;
   position: absolute;
