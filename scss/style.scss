@@ -70,7 +70,7 @@ p {
 }
 .btn--black:hover {
     background-color: $blancoPanda;
-    border-color: $blancoPanda;
+    border-color: $amarilloPanda;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
     transition: 300ms ease;
     h4 {
@@ -361,6 +361,27 @@ div.col-md-10.p-4 {
 }
 //! ---End Carousel---
 
+//! ---Newsletter---
+.banner-newsletter {
+    background-color: $amarilloPanda;
+    form {
+        button {
+            font-size: 24px;
+            line-height: 0.9;
+            padding: 0.5rem 1.1rem;
+            position: relative;
+            right: 50px;
+        }
+        .input-email {
+            padding-left: 40px;
+            input {
+                width: 253px;
+            }
+        }
+    }
+}
+//! ---End Newsletter
+
 //! ---Navbar---
 header {
     .hid {
@@ -499,10 +520,6 @@ header {
         padding: 0;
     }
 
-    /** News Letters */
-    div.col-md-12.newsLetters {
-        background-color: #fff854;
-    }
     /*buscador*/
     #navSearch {
         display: block;
