@@ -240,7 +240,9 @@ p {
         }
     }
 }
-
+img #popupModalLabel{
+  padding: 0px;
+}
 //! Footer
 footer {
     background-color: $rojoPanda;
@@ -617,7 +619,7 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
   border: 1px solid #e61e27;
-  width: 30%; 
+  width: 100%; 
 }
 
 /* The Close Button (x) */
@@ -668,4 +670,10 @@ span.psw {
      border-radius: 70px;
      padding: 0;
   }
+}
+/*librería*/
+.lapices{
+  width: 90%;
+  height: 90%;
+  padding: 0px;
 }

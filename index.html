@@ -193,7 +193,7 @@
 								</div>
 							</li>
 							<li>
-								<a class="liYco" href="">Librería & Cotillon</a>
+								<a class="liYco" href="pag/libreria.html">Librería & Cotillon</a>
 								<div class="submenu4 container">
 									<div class="row">
 										<div class="col-lg-6 col-sm-6">
@@ -388,7 +388,7 @@
 							</div>
 							<div class="card-body pt-2 d-flex justify-content-center">
 								<button class="btn btn--carousel">
-									<h4>Librería</h4>
+									<a href="pag/libreria.html"><h4>Librería</h4></a>
 								</button>
 							</div>
 						</div>
@@ -459,11 +459,37 @@
 	<!--News Letters</!-->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 newsLetters p-4">
-				<h3>¡Enterate primero!</h3>
+			<div class="col-md-12 newsLetters pt-4">
+				<div class="container-fluid">
+					<div class="row p-2">
+						<div class="col-md-3 align-items-center justify-content-center">
+							<h4 style='font-size:30px; font-weight: bold;'>¡Enterate primero!</h4>
+						</div>
+						<div class="col-md-3">
+							<p style='font-size:13px; font-weight: bold;'>Suscribite a nuestro newsletter y recibi todas las novedades y las mejores ofertas y promociones</p>
+						</div>
+						<div class="col-md-6">
+							<form>
+								<div class="form-row align-items-center justify-content-center">
+									<div class="input-email col-auto">
+										<label class="sr-only" for="emailInput"></label>
+										<input type="email" class="form-control" id="emailInput"
+												placeholder="Escribí tu e-mail acá">
+									</div>
+									<div>
+										<button type="submit" onclick="changeContent()" class="btn btn--black txt--yellow"
+										id="btnEmail">✉</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<!--! -----------End News Letters-------------  -->
+	
 	<!--! ----------------Footer--------------- -->
 	<footer>
 		<div class="container">
