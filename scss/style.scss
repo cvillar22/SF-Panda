@@ -361,325 +361,329 @@ div.col-md-10.p-4 {
 }
 //! ---End Carousel---
 
-/**  Nav **/
-.hid {
-    display: none;
-}
-.menu-flotante {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 10;
-    top: 0;
-    left: 0;
-}
-.menu-flotante .interno {
-    padding: 20px;
-    width: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-}
-.menu-flotante .interno ul {
-    padding: 10px;
-    list-style-type: none;
-}
-.menu-flotante .interno ul.secciones1 {
-    font-weight: bold;
-}
-.menu-flotante .interno ul.secciones2 {
-    margin-top: 10px;
-}
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 248, 84)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
-}
-div.col-8.offset-sm-4 {
-    margin-left: 20%;
-    padding: 0;
-}
-.logoMenu {
-    width: 80%;
-    height: 80%;
-}
-div.col-8 {
-    margin-top: 7px;
-}
-ul.secciones1 {
-    font-size: 0.85rem;
-}
-ul.secciones2 {
-    font-size: 0.85rem;
-}
-ul.secciones1 li {
-    position: relative;
-}
-ul.secciones2 li {
-    position: relative;
-}
-.submenu1 {
-    position: absolute;
-    background-color: white;
-    display: none;
-}
-.atCliente:hover + .submenu1 {
-    left: 140%;
-    width: 250px;
-    height: 395px;
-    display: block;
-    top: -150px;
-    padding-top: 75px;
-    padding-left: 40px;
-    padding-right: 20px;
-    font-weight: 400;
-}
-.submenu2 {
-    position: absolute;
-    background-color: white;
-    display: none;
-}
-.hoYja:hover + .submenu2 {
-    left: 120%;
-    width: 500px;
-    height: 389px;
-    top: -200px;
-    font-weight: 400;
-    display: block;
-    padding-top: 75px;
-    border-left: 1px solid black;
-}
-.moYbe:hover + .submenu3 {
-    left: 130%;
-    width: 500px;
-    height: 389px;
-    top: -220px;
-    font-weight: 400;
-    display: block;
-    padding-top: 75px;
-    border-left: 1px solid black;
-}
-.liYco:hover + .submenu4 {
-    left: 120%;
-    width: 500px;
-    height: 388px;
-    top: -240px;
-    font-weight: 400;
-    display: block;
-    padding-top: 75px;
-    border-left: 1px solid black;
-}
-.submenu3 {
-    position: absolute;
-    background-color: white;
-    display: none;
-}
-.submenu4 {
-    position: absolute;
-    background-color: white;
-    display: none;
-}
-a {
-    color: black;
-}
-button.navbar-toggler.collapsed.col-4 {
-    display: block;
-    position: absolute;
-    content: 40px;
-    padding: 0px;
-    border: none;
-    width: 100px;
-    height: 40px;
-}
-
-button.close {
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-}
-
-/** News Letters */
-div.col-md-12.newsLetters {
-    background-color: #fff854;
-}
-/*buscador*/
-#navSearch {
-    display: block;
-}
-
-.inner-addon {
-    position: relative;
-}
-.inner-addon .fa.fa-search {
-    position: absolute;
-    padding: 20px;
-    pointer-events: none;
-    margin-left: 10px;
-}
-.left-addon {
-    left: 0px;
-}
-.left-addon input {
-    padding-left: 30px;
-}
-input.form-control {
-    border-radius: 70px;
-    width: 400px;
-    height: 45px;
-    margin: 0px;
-    padding: 0px;
-}
-/*logo*/
-img.logo {
-    position: relative;
-    display: inline-block;
-    left: 48.75%;
-    right: 78.06%;
-    top: 20%;
-}
-div.form-group {
-    position: relative;
-}
-h3.nuestrosProductos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-h3.masElegidos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-div.iconosNav.col-4 {
-    display: inline;
-    position: flex;
-    text-align: center;
-}
-.iconoNav {
-    display: inline;
-    position: flex;
-}
-/*login*/
-input[type="text"],
-input[type="password"] {
-    width: 150%;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 70px;
-    text-align: center;
-}
-button:hover {
-    opacity: 0.8;
-}
-.cancelbtn {
-    width: 100px;
-    background-color: #ff351e;
-    border-radius: 70px;
-    color: #313638;
-}
-.btnSubLog {
-    width: 50%;
-    background-color: #313638;
-    border-radius: 70px;
-    color: #f7d942;
-}
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
-.container {
-    padding: 16px;
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* The Modal (background) */
-.nav-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 40px;
-}
-
-/* Modal Content/Box */
-.nav-modal {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto;
-    border: 1px solid #e61e27;
-    width: 100%;
-}
-
-/* The Close Button (x) */
-.nav-close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.nav-close:hover,
-.nav-close:focus {
-    color: red;
-    cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s;
-}
-
-@-webkit-keyframes animatezoom {
-    from {
-        -webkit-transform: scale(0);
+//! ---Navbar---
+header {
+    .hid {
+        display: none;
     }
-    to {
-        -webkit-transform: scale(1);
+    .menu-flotante {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 10;
+        top: 0;
+        left: 0;
     }
-}
-
-@keyframes animatezoom {
-    from {
-        transform: scale(0);
+    .menu-flotante .interno {
+        padding: 20px;
+        width: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
     }
-    to {
-        transform: scale(1);
+    .menu-flotante .interno ul {
+        padding: 10px;
+        list-style-type: none;
     }
-}
-
-@media screen and (max-width: 300px) {
-    span.psw {
+    .menu-flotante .interno ul.secciones1 {
+        font-weight: bold;
+    }
+    .menu-flotante .interno ul.secciones2 {
+        margin-top: 10px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 248, 84)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    }
+    div.col-8.offset-sm-4 {
+        margin-left: 20%;
+        padding: 0;
+    }
+    .logoMenu {
+        width: 80%;
+        height: 80%;
+    }
+    div.col-8 {
+        margin-top: 7px;
+    }
+    ul.secciones1 {
+        font-size: 0.85rem;
+    }
+    ul.secciones2 {
+        font-size: 0.85rem;
+    }
+    ul.secciones1 li {
+        position: relative;
+    }
+    ul.secciones2 li {
+        position: relative;
+    }
+    .submenu1 {
+        position: absolute;
+        background-color: white;
+        display: none;
+    }
+    .atCliente:hover + .submenu1 {
+        left: 140%;
+        width: 250px;
+        height: 395px;
         display: block;
-        float: none;
+        top: -150px;
+        padding-top: 75px;
+        padding-left: 40px;
+        padding-right: 20px;
+        font-weight: 400;
+    }
+    .submenu2 {
+        position: absolute;
+        background-color: white;
+        display: none;
+    }
+    .hoYja:hover + .submenu2 {
+        left: 120%;
+        width: 500px;
+        height: 389px;
+        top: -200px;
+        font-weight: 400;
+        display: block;
+        padding-top: 75px;
+        border-left: 1px solid black;
+    }
+    .moYbe:hover + .submenu3 {
+        left: 130%;
+        width: 500px;
+        height: 389px;
+        top: -220px;
+        font-weight: 400;
+        display: block;
+        padding-top: 75px;
+        border-left: 1px solid black;
+    }
+    .liYco:hover + .submenu4 {
+        left: 120%;
+        width: 500px;
+        height: 388px;
+        top: -240px;
+        font-weight: 400;
+        display: block;
+        padding-top: 75px;
+        border-left: 1px solid black;
+    }
+    .submenu3 {
+        position: absolute;
+        background-color: white;
+        display: none;
+    }
+    .submenu4 {
+        position: absolute;
+        background-color: white;
+        display: none;
+    }
+    a {
+        color: black;
+    }
+    button.navbar-toggler.collapsed.col-4 {
+        display: block;
+        position: absolute;
+        content: 40px;
+        padding: 0px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+
+    button.close {
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /** News Letters */
+    div.col-md-12.newsLetters {
+        background-color: #fff854;
+    }
+    /*buscador*/
+    #navSearch {
+        display: block;
+    }
+
+    .inner-addon {
+        position: relative;
+    }
+    .inner-addon .fa.fa-search {
+        position: absolute;
+        padding: 20px;
+        pointer-events: none;
+        margin-left: 10px;
+    }
+    .left-addon {
+        left: 0px;
+    }
+    .left-addon input {
+        padding-left: 30px;
+    }
+    input.form-control {
+        border-radius: 70px;
+        width: 400px;
+        height: 45px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /*logo*/
+    img.logo {
+        position: relative;
+        display: inline-block;
+        left: 48.75%;
+        right: 78.06%;
+        top: 20%;
+    }
+    div.form-group {
+        position: relative;
+    }
+    h3.nuestrosProductos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h3.masElegidos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.iconosNav.col-4 {
+        display: inline;
+        position: flex;
+        text-align: center;
+    }
+    .iconoNav {
+        display: inline;
+        position: flex;
+    }
+    /*login*/
+    input[type="text"],
+    input[type="password"] {
+        width: 150%;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 70px;
+        text-align: center;
+    }
+    button:hover {
+        opacity: 0.8;
     }
     .cancelbtn {
-        width: 100%;
-        color: #313638;
+        width: 100px;
+        background-color: #ff351e;
         border-radius: 70px;
-        padding: 0;
+        color: #313638;
     }
     .btnSubLog {
-        width: 100%;
+        width: 50%;
+        background-color: #313638;
         border-radius: 70px;
-        padding: 0;
+        color: #f7d942;
+    }
+    /* Center the image and position the close button */
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+    .container {
+        padding: 16px;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    /* The Modal (background) */
+    .nav-modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 40px;
+    }
+
+    /* Modal Content/Box */
+    .nav-modal {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #e61e27;
+        width: 100%;
+    }
+
+    /* The Close Button (x) */
+    .nav-close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .nav-close:hover,
+    .nav-close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+    /* Add Zoom Animation */
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s;
+    }
+
+    @-webkit-keyframes animatezoom {
+        from {
+            -webkit-transform: scale(0);
+        }
+        to {
+            -webkit-transform: scale(1);
+        }
+    }
+
+    @keyframes animatezoom {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+            color: #313638;
+            border-radius: 70px;
+            padding: 0;
+        }
+        .btnSubLog {
+            width: 100%;
+            border-radius: 70px;
+            padding: 0;
+        }
     }
 }
+//! ---End Navbar---
+
 /*librería*/
 .lapices {
     width: 90%;
