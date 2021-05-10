@@ -548,8 +548,8 @@ span.psw {
   font-size: 35px;
   font-weight: bold; }
 
-.close:hover,
-.close:focus {
+.nav-close:hover,
+.nav-close:focus {
   color: red;
   cursor: pointer; }
 
