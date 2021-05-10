@@ -480,7 +480,8 @@ div.iconosNav.col-4 {
   position: flex; }
 
 /*login*/
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 150%;
   margin: 8px 0;
   display: inline-block;
@@ -518,7 +519,7 @@ span.psw {
   padding-top: 16px; }
 
 /* The Modal (background) */
-.modal {
+.nav-modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -532,14 +533,14 @@ span.psw {
   padding-top: 40px; }
 
 /* Modal Content/Box */
-.modal-content {
+.nav-modal {
   background-color: #fefefe;
   margin: 5% auto 15% auto;
   border: 1px solid #e61e27;
   width: 100%; }
 
 /* The Close Button (x) */
-.close {
+.nav-close {
   position: absolute;
   right: 25px;
   top: 0;
