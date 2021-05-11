@@ -243,6 +243,33 @@ p {
 img #popupModalLabel {
     padding: 0px;
 }
+
+//! ---Newsletter---
+.banner-newsletter {
+    background-color: $amarilloPanda;
+    h5 {
+        font-weight: 500;
+    }
+    form {
+        button {
+            font-size: 24px;
+            line-height: 0.9;
+            padding: 0.5rem 1.1rem;
+            position: relative;
+            right: 50px;
+        }
+        .input-email {
+            padding-left: 40px;
+            input {
+                width: 18rem;
+                border-radius: 2rem;
+                padding: 1.2rem 0;
+            }
+        }
+    }
+}
+//! ---End Newsletter
+
 //! Footer
 footer {
     background-color: $rojoPanda;
@@ -360,27 +387,6 @@ div.col-md-10.p-4 {
     background-color: #de1457;
 }
 //! ---End Carousel---
-
-//! ---Newsletter---
-.banner-newsletter {
-    background-color: $amarilloPanda;
-    form {
-        button {
-            font-size: 24px;
-            line-height: 0.9;
-            padding: 0.5rem 1.1rem;
-            position: relative;
-            right: 50px;
-        }
-        .input-email {
-            padding-left: 40px;
-            input {
-                width: 253px;
-            }
-        }
-    }
-}
-//! ---End Newsletter
 
 //! ---Navbar---
 header {
