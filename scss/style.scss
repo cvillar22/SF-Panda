@@ -3,7 +3,7 @@ html {
     //Para el return-to-top
     scroll-behavior: smooth;
 }
-//! General Fonts
+//General Fonts
 * {
     font-family: "Raleway", sans-serif;
 }
@@ -70,7 +70,7 @@ p {
 }
 .btn--black:hover {
     background-color: $blancoPanda;
-    border-color: $blancoPanda;
+    border-color: $amarilloPanda;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
     transition: 300ms ease;
     h4 {
@@ -243,6 +243,33 @@ p {
 img #popupModalLabel {
     padding: 0px;
 }
+
+//! ---Newsletter---
+.banner-newsletter {
+    background-color: $amarilloPanda;
+    h5 {
+        font-weight: 500;
+    }
+    form {
+        button {
+            font-size: 24px;
+            line-height: 0.9;
+            padding: 0.5rem 1.1rem;
+            position: relative;
+            right: 50px;
+        }
+        .input-email {
+            padding-left: 40px;
+            input {
+                width: 18rem;
+                border-radius: 2rem;
+                padding: 1.2rem 0;
+            }
+        }
+    }
+}
+//! ---End Newsletter
+
 //! Footer
 footer {
     background-color: $rojoPanda;
@@ -498,7 +525,6 @@ header {
         margin: 0;
         padding: 0;
     }
-
     /** News Letters */
     div.col-md-12.newsLetters.pt-4 {
         background-color: #fff854;

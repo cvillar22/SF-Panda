@@ -61,7 +61,7 @@ p {
 
 .btn--black:hover {
   background-color: #fffffd;
-  border-color: #fffffd;
+  border-color: #f7d942;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   transition: 300ms ease; }
   .btn--black:hover h4 {
@@ -188,6 +188,23 @@ p {
 
 img #popupModalLabel {
   padding: 0px; }
+
+.banner-newsletter {
+  background-color: #f7d942; }
+  .banner-newsletter h5 {
+    font-weight: 500; }
+  .banner-newsletter form button {
+    font-size: 24px;
+    line-height: 0.9;
+    padding: 0.5rem 1.1rem;
+    position: relative;
+    right: 50px; }
+  .banner-newsletter form .input-email {
+    padding-left: 40px; }
+    .banner-newsletter form .input-email input {
+      width: 18rem;
+      border-radius: 2rem;
+      padding: 1.2rem 0; }
 
 footer {
   background-color: #ff351e; }
