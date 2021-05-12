@@ -403,7 +403,7 @@ header {
     font-size: 50px;
     margin: 0;
     padding: 0; }
-  header div.col-md-12.newsLetters {
+  header div.col-md-12.newsLetters.pt-4 {
     background-color: #fff854; }
   header #navSearch {
     display: block; }
