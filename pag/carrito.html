@@ -80,7 +80,7 @@
 					<div class="iconoNav p-4"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div>
 				</button>
 				<button style="border:0px; background-color: transparent;" class="btnCart">
-					<div class="iconoNav p-4"><a href="carrito.html"><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i></a>
+					<div class="iconoNav p-4"><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i>
 					</div>
 				</button>
 			</div>
@@ -241,251 +241,160 @@
 		</div>
 	</header>
 	<!-- end nav-->
-	
-	<!-- Titulo y bton de ordernar-->
-	<div class="container">
-		<div class="row p-5">
-			<div class="col-6  text-center">
-				<h6>Librería & Cotillón/Vuelta al coles/Productos escolares</h6>
+	<section>
+		<div class="container compras">
+			<!--rendercon js-->
+		</div>
+	</section>
+	<!--Productos Similares-->
+	<section class="container p-5">
+		<div class="row">
+			<div class="col-lg-12">
+				<h4 class="nuestrosProductos text-left">Productos Similares</h4>
 			</div>
-			<div class="col-6  text-center">
-				<div class="dropdown">
-  					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   						Ordenar por
-  					</button>
-  					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					    <a class="dropdown-item" href="#">Precio-Mayor al menor</a>
-					    <a class="dropdown-item" href="#">Precio-Menor al Mayor</a>
+		</div>
+	</section>
+	<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+		<div class="container">
+			<a class="carousel-control-prev" href="#postsCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#postsCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="container pt-0 mt-2">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="card-deck">
+						<div class="card carousel-card">
+							<img src="../img/anotaPelu.jpg" class="card-img-top product-img" alt="...">
+				  				<a class="product-title"class="card-text">Anotador peluche</a>
+				  					<div><p class="product-price">$390.00</p></div>
+				    		<div class="container p-0"> 
+					    		<div class="row justify-content-center">
+					    			<div class="col-6" class="cart-info">
+					   						<button type="submit" class="btn btn--black addToCart" 
+											id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+									</div>
+									<div class="col-6">
+											<button class="update-btn" value="-1">-</button>
+											<input  class="item-count" readonly type="number" value="1"/>
+											<button class="update-btn" value="1">+</button>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="card carousel-card">
+							<img src="../img/goma.jpg" class="card-img-top product-img" alt="...">
+				  				<a class="product-title"class="card-text">Gomas de borrar donas</a>
+				  				<div><p class="product-price">$90.00</p></div>
+				    		<div class="container p-0"> 
+					    		<div class="row justify-content-center">
+						    		<div class="col-6" class="cart-info">
+						   				<button type="submit" class="btn btn--black addToCart" 
+										id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+									</div>
+									<div class="col-6">
+										<button class="update-btn" value="-1">-</button>
+										<input  class="item-count" readonly type="number" value="1"/>
+										<button class="update-btn" value="1">+</button>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="card carousel-card">
+							<img src="../img/cartuchera.jpg" class="card-img-top product-img" alt="...">
+				  			<div class="card-body">
+				    			<a class="product-title"class="card-text">Cartuchera multicolor</a>
+				    			<div><p class="product-price">$790.00</p></div>
+				   				<div class="container p-0"> 
+					    			<div class="row justify-content-center">
+					    				<div class="col-6" class="cart-info">
+					   						<button type="submit" class="btn btn--black addToCart" 
+										id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+										</div>
+										<div class="col-6">
+											<button class="update-btn" value="-1">-</button>
+											<input  class="item-count" readonly type="number" value="1"/>
+										<button class="update-btn" value="1">+</button>
+										</div>
+									</div>	
+								</div>
+				 			</div>	
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="card-deck">
+						<div class="card carousel-card">
+							<img src="../img/anotaPelu.jpg" class="card-img-top product-img" alt="...">
+				  				<a class="product-title"class="card-text">Anotador peluche</a>
+				  					<div><p class="product-price">$390.00</p></div>
+				    		<div class="container p-0"> 
+					    		<div class="row justify-content-center">
+					    			<div class="col-6" class="cart-info">
+					   						<button type="submit" class="btn btn--black addToCart" 
+											id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+									</div>
+									<div class="col-6">
+											<button class="update-btn" value="-1">-</button>
+											<input  class="item-count" readonly type="number" value="1"/>
+											<button class="update-btn" value="1">+</button>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="card carousel-card">
+							<img src="../img/goma.jpg" class="card-img-top product-img" alt="...">
+				  				<a class="product-title"class="card-text">Gomas de borrar donas</a>
+				  				<div><p class="product-price">$90.00</p></div>
+				    		<div class="container p-0"> 
+					    		<div class="row justify-content-center">
+						    		<div class="col-6" class="cart-info">
+						   				<button type="submit" class="btn btn--black addToCart" 
+										id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+									</div>
+									<div class="col-6">
+										<button class="update-btn" value="-1">-</button>
+										<input  class="item-count" readonly type="number" value="1"/>
+										<button class="update-btn" value="1">+</button>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="card carousel-card">
+							<img src="../img/cartuchera.jpg" class="card-img-top product-img" alt="...">
+				  			<div class="card-body">
+				    			<a class="product-title"class="card-text">Cartuchera multicolor</a>
+				    			<div><p class="product-price">$790.00</p></div>
+				   				<div class="container p-0"> 
+					    			<div class="row justify-content-center">
+					    				<div class="col-6" class="cart-info">
+					   						<button type="submit" class="btn btn--black addToCart" 
+										id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
+										</div>
+										<div class="col-6">
+											<button class="update-btn" value="-1">-</button>
+											<input  class="item-count" readonly type="number" value="1"/>
+										<button class="update-btn" value="1">+</button>
+										</div>
+									</div>	
+								</div>
+				 			</div>	
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!--END Titulo y bton de ordernar-->
+	</section>
 
-	<!--Productos-->
-	<section class="productos" id="products">
-	<div class="container-fluid" id="product-list">
-		<div class="row">
-			<div class="col-6">
-				<img src="../img/lapices.jpg" class="lapices">
-			</div>
-			<div class="col-3 product">
-				<img src="../img/boliSuper.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title" class="card-text">Bolígrafo Superheroes</a>
-				    <div><p class="product-price">$45.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>  
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/lapicerasFru.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a  class="product-title" class="card-text">Lápiceras frutas y verduras</a>
-				    <div><p class="product-price">$198.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-3 product">
-				<img src="../img/clipPer.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title"class="card-text">Clip personalizado</a>
-				    <div><p class="product-price">$120.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/anotador.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title"class="card-text">Anotador Aanillos</a>
-				    <div><p class="product-price">$340.00</p></div>
-				   <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/maletaFri.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				   <a class="product-title"class="card-text">Maletas fibras X18</a>
-				   <div><p class="product-price">$360.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/biromeVenti.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title"class="card-text">Birome ventilador</a>
-				    <div><p class="product-price">$120.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-3 product">
-				<img src="../img/resaltadoresZ.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title"class="card-text">Resaltadores de Zanahoria</a>
-				    <div><p class="product-price">$210.00</p></div>
-				  <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/cartuchera.jpg" class="card-img-top product-img" alt="...">
-				  <div class="card-body">
-				    <a class="product-title"class="card-text">Cartuchera multicolor</a>
-				    <div><p class="product-price">$790.00</p></div>
-				   <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-			<div class="col-3 product">
-				<img src="../img/anotaPelu.jpg" class="card-img-top product-img" alt="...">
-				  <a class="product-title"class="card-text">Anotador peluche</a>
-				  <div><p class="product-price">$390.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				 </div>
-			<div class="col-3 m-0 product">
-				<img src="../img/goma.jpg" class="card-img-top product-img" alt="...">
-				  <a class="product-title"class="card-text">Gomas de borrar donas</a>
-				  <div><p class="product-price">$90.00</p></div>
-				    <div class="container p-0"> 
-					    <div class="row justify-content-center">
-					    	<div class="col-6" class="cart-info">
-					   			<button type="submit" class="btn btn--black addToCart" 
-								id="btncart"><i class='fas fa-shopping-cart' style='font-size:14px; color: #fff854'></i></button>
-							</div>
-							<div class="col-6">
-								<button class="update-btn" value="-1">-</button>
-									<input  class="item-count" readonly type="number" value="1"/>
-								<button class="update-btn" value="1">+</button>
-							</div>
-						</div>	
-					</div>
-				  </div>
-			</div>
-		</div>	
-	</div>
-	<div class="container-fluid"></div>
-		<div class="row p-5 align-items-center">
-		<div class="col-4"></div>
-		<div class="col-4 text-center">
-			<button type="button" class="btn btn--carousel">Ver más</button>
-		</div>
-		<div class="col-4"></div>
-	</div>
-
-	<!--News Letters</!-->
+	<!--newLetters-->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 newsLetters pt-4" style="background-color:#fff854;">
+			<div class="col-md-12 newsLetters pt-4">
 				<div class="container-fluid">
 					<div class="row p-2">
 						<div class="col-md-3 align-items-center justify-content-center">
@@ -514,8 +423,6 @@
 			</div>
 		</div>
 	</div>
-	</section>
-	<!--Footter</!-->
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
@@ -597,7 +504,6 @@
 		crossorigin="anonymous"></script>
 	<script src="../js/nav.js"></script>
 	<script src="../js/menu.js"></script>
-	<script src="../js/objeto.js"></script>
 	<script src="../js/script.js"></script>
 </body>
 
