@@ -1,54 +1,50 @@
+let compras = [];
+
+
+const updateBtn = document.querySelectorAll('.update-btn');
+
 const addToCartBtn = document.querySelectorAll('.addToCart');
+
+updateBtn.forEach((upBtn)=>{
+	upBtn.addEventListener('click',updatedCount);
+});
 
 addToCartBtn.forEach((addCartBtn) =>{
 	addCartBtn.addEventListener('click', addToCartClicked);
 	});
 
-const shoppingComprasContainer = document.querySelector('.compras');
+function updatedCount(event){
+	const buttonCount = event.target;
+	const count = buttonCount.parentNode.querySelector('.item-count');
+	if (count.value >= 1){
+		count.value = Number(count.value) + Number(buttonCount.value);
+	}else{
+		count.value = 1;
+	};
+}
 
 function addToCartClicked(event){
 	const buttonCart = event.target;
 	const product = buttonCart.closest('.product');
 	const productTitle = product.querySelector('.product-title').textContent;
-	const productPrice = product.querySelector('.product-price').textContent;
+	const productPrice = product.querySelector('.product-price').textContent.replace('$','');
 	const productImg = product.querySelector('.product-img').src;
+	const inputValue = product.querySelector('.item-count').value;
 
-	addProductInCart(productTitle, productPrice, productImg);
+	addProductInCart(productTitle, productPrice, productImg, inputValue);
 }
 
-function addProductInCart(productTitle, productPrice, productImg){
+function addProductInCart(productTitle, productPrice, productImg, inputValue){
+	const producto = {titulo:productTitle, img: productImg, precio: productPrice, cantidad: inputValue, subtotal:Number(productPrice)*Number(inputValue)}
 
-	const shopping = document.createElement('div');
-	let shoppingCartContent = `
-	<div class="row">
-		<div class="col-6">
-			<img src="${productImg}" alt="Shopping-cart-img">
-		</div>
-		<div class="col-6">
-			<div class="container">
-				<div class=row>
-					<div class="col-12">
-						<div class="card">
-							<div class="card-img-top card-img-top">
-								<h4>${productTitle}</h4>
-								<h4>${productPrice}</h4>
-							</div>
-						<div>
-							<button class="update-btn" value="-1">-</button>
-								<input  class="item-count" readonly type="number" value=""/>
-							<button class="update-btn" value="1">+</button>
-						</div>
-						<div class="card-body pt-2 d-flex justify-content-center">
-							<button class="btn btn--carousel">
-								<h4>Hacer pedido</h4>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> `
-shopping.innerHTML = shoppingCartContent;
-shoppingComprasContainer.append(shopping);
+	const pocision = compras.findIndex(prod => prod.titulo == productTitle);
+	if (pocision >= 0){
+		compras [pocision] = producto;
+	}else{
+		compras.push(producto);
+	}
+
+	localStorage.setItem("carrito-compras", JSON.stringify(compras));
+
 };
+
