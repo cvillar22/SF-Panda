@@ -44,11 +44,11 @@ total.textContent = currentTotal + subtotal;
 };
 
 function enviarPedido(event){
-	if(carrito.lenght){
-		const elements = carrito.carrito
+	if(carrito.length){
+		const elements = carrito
 			.map((producto)=>`Producto: ${producto.titulo}\nCantidad: ${producto.cantidad}\nSubtotal: $${producto.subtotal}`)
             .join("\n\n");
-		const message = `Hola! Me gustaria hacer el siguiente pedido:\n\n ${producto.titulo}\n\n*Cantidad ${producto.cantidad}*`;
+		const message = `Hola! Me gustaria hacer el siguiente pedido:\n\n ${elements}\n\n*Total a pagar:$ ${document.querySelector('.totalShopping').textContent}*`;
 		const url = encodeURI(
 			`https://api.whatsapp.com/send?phone=999-999-9999&text=${message}`
 		);
