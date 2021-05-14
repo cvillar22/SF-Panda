@@ -83,7 +83,8 @@
 					<div class="iconoNav p-4"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div>
 				</button>
 				<button style="border:0px; background-color: transparent;" class="btnCart">
-					<div class="iconoNav p-4"><a href="pag/carrito.html"><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i></a>
+					<div class="iconoNav p-4"><a href="pag/carrito.html"><i class='fas fa-shopping-cart'
+								style='font-size:24px; color: #fff'></i></a>
 					</div>
 				</button>
 			</div>
@@ -464,36 +465,31 @@
 	<!--! -----------End Grid-------------  -->
 
 	<!--! ----------- Newsletter-------------  -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 newsLetters pt-4" style="background-color:#fff854;">
-				<div class="container-fluid">
-					<div class="row p-2">
-						<div class="col-md-3 align-items-center justify-content-center">
-							<h4 style='font-size:30px; font-weight: bold;'>¡Enterate primero!</h4>
-						</div>
-						<div class="col-md-3">
-							<p style='font-size:13px; font-weight: bold;'>Suscribite a nuestro newsletter y recibi todas las novedades y las mejores ofertas y promociones</p>
-						</div>
-						<div class="col-md-6">
-							<form>
-								<div class="form-row align-items-center justify-content-center">
-									<div class="input-email col-auto">
-										<label class="sr-only" for="emailInput"></label>
-										<input type="email" class="form-control" id="emailInput"
-												placeholder="Escribí tu e-mail acá">
-									</div>
-									<div>
-										<button type="submit" onclick="changeContent()" class="btn btn--black txt--yellow"
-										id="btnEmail">✉</button>
-									</div>
-								</div>
-							</form>
+	<div class="container-fluid banner-newsletter">
+		<div class="row pt-4 pb-4 align-items-center text-center">
+			<div class="col-md-4 col-sm-12">
+				<h3>¡Enterate Primero!</h3>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h5>Suscribite a nuestro newsletter y recibí todas
+					las novedades y las mejores ofertas y promociones</h5>
+			</div>
+			<div class="col-md-4 col-sm-12 newsletter-email">
+				<form>
+					<div class="form-row">
+						<div class="input-email col-12 d-flex">
+							<label class="sr-only" for="emailInput"></label>
+							<input type="email" class="form-control pl-4" id="emailInput"
+								placeholder="Escribí tu e-mail acá">
+							<button type="submit" class="btn btn--black txt--yellow" id="btnEmail">✉</button>
 						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
+	</div>
+	</div>
+	</div>
 	</div>
 	</section>
 	<!--! ----------------Footer--------------- -->

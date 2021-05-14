@@ -526,7 +526,7 @@ header {
         padding: 0;
     }
     /** News Letters */
-    div.col-md-12.newsLetters.pt-4 {
+    div.col-md-12.newsLetters {
         background-color: #fff854;
     }
     /*buscador*/
@@ -716,25 +716,25 @@ header {
     height: 90%;
     padding: 0px;
 }
-input.item-count{
-width: 35px;
-font-size: 15px;
+input.item-count {
+    width: 35px;
+    font-size: 15px;
 }
-button#btncart.btn.btn--black.addToCart{
-  width: 40px;
-  padding: 2px;
+button#btncart.btn.btn--black.addToCart {
+    width: 40px;
+    padding: 2px;
 }
-button.update-btn{
-  width: 15px;
-  padding: 0px;
+button.update-btn {
+    width: 15px;
+    padding: 0px;
 }
-div.col-6.text-left.totalShopping{
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 0px;
+div.col-6.text-left.totalShopping {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 0px;
 }
-div.col-6.text-right h4{
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 0px;
+div.col-6.text-right h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 0px;
 }
