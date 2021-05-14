@@ -558,7 +558,7 @@ header {
   padding: 0px; }
 
 input.item-count {
-  width: 95px;
+  width: 35px;
   font-size: 15px; }
 
 button#btncart.btn.btn--black.addToCart {
@@ -568,3 +568,13 @@ button#btncart.btn.btn--black.addToCart {
 button.update-btn {
   width: 15px;
   padding: 0px; }
+
+div.col-6.text-left.totalShopping {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 0px; }
+
+div.col-6.text-right h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 0px; }
