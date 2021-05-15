@@ -631,9 +631,18 @@ div.col-6.text-right h4 {
   max-height: 384px;
   border-bottom-right-radius: 5%;
   border-bottom-left-radius: 5%; }
-
-.product-img {
-  max-height: 178px; }
+  .product .product-img {
+    max-height: 178px; }
+  .product .product-price {
+    font-size: 20px;
+    font-weight: 700; }
+  .product .update-btn {
+    background: none; }
+  .product .item-count {
+    background-color: #eeeeee;
+    opacity: 0.7; }
+  .product input[type="number"] {
+    -moz-appearance: textfield; }
 
 /*carritp*/
 button.btn--pedido {

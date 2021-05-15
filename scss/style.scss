@@ -798,11 +798,29 @@ div.col-6.text-right h4 {
     max-height: 384px;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
-}
-.product-img {
-    max-height: 178px;
-}
 
+    .product-img {
+        max-height: 178px;
+    }
+
+    .product-price {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .update-btn {
+        background: none;
+    }
+
+    .item-count {
+        background-color: #eeeeee;
+        opacity: 0.7;
+    }
+    //? Esconder flechas del input
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+}
 /*carritp*/
 button.btn--pedido {
     height: 55px;
