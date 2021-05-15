@@ -568,7 +568,12 @@ input.item-count {
 
 button#btncart.btn.btn--black.addToCart {
   width: 40px;
-  padding: 2px; }
+  padding: 2px;
+  color: #f7d942; }
+
+button#btncart.btn.btn--black.addToCart:hover {
+  background-color: #f7d942;
+  color: #313638; }
 
 button.update-btn {
   width: 15px;
@@ -588,17 +593,38 @@ div.col-6.text-right h4 {
   font-size: 2rem;
   line-height: 0px; }
 
-button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle {
+.btn--filterby {
   height: 40px;
   width: 200px;
   border-radius: 30px;
-  font-size: 18px;
-  background-color: #FF6047; }
+  background-color: #ff6047; }
+  .btn--filterby p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    color: #fffffd; }
+  .btn--filterby i {
+    color: #f7d942;
+    padding-left: 1rem; }
 
-button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle:hover {
+.btn--filterby:hover {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   transition: 300ms ease;
-  color: #f7d942; }
+  color: #ff6047;
+  background-color: #f7d942; }
+  .btn--filterby:hover p {
+    color: #ff6047; }
+  .btn--filterby:hover i {
+    color: #ff6047; }
+
+.btn--filterby::after {
+  content: none; }
+
+.product {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  margin: 0.2rem;
+  max-width: 292px;
+  max-height: 384px; }
 
 /*carritp*/
 button.btn--pedido {

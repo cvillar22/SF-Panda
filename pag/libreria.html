@@ -47,7 +47,8 @@
 			</div>
 			<div class="iconosNav col-4 justify-content-center">
 				<button style="border:0px; background-color: transparent;" class="btnQuestion">
-					<div class="iconoNav p-4"><a href="descMayoristas.html"><i class='fas fa-question-circle' style='font-size:24px; color: #fff'></i></a>
+					<div class="iconoNav p-4"><a href="descMayoristas.html"><i class='fas fa-question-circle'
+								style='font-size:24px; color: #fff'></i></a>
 					</div>
 				</button>
 				<button onclick="document.getElementById('id01').style.display='block'"
@@ -81,7 +82,8 @@
 				</div>
 
 				<button style="border:0px; background-color: transparent;" class="btnHeart">
-					<div class="iconoNav p-4"><a href="favoritos.html"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></a></div>
+					<div class="iconoNav p-4"><a href="favoritos.html"><i class='fas fa-heart'
+								style='font-size:24px; color: #fff'></i></a></div>
 				</button>
 				<button style="border:0px; background-color: transparent;" class="btnCart">
 					<div class="iconoNav p-4"><a href="carrito.html"><i class='fas fa-shopping-cart'
@@ -255,9 +257,9 @@
 			</div>
 			<div class="col-6  text-center">
 				<div class="dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+					<button class="btn btn--filterby dropdown-toggle" type="button" id="dropdownMenuButton"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Ordenar por 
+						<p class="d-inline">Ordenar por</p> <i class="d-inline fas fa-caret-down fa-lg"></i>
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 						<a class="dropdown-item" href="#">Precio-Mayor al menor</a>
@@ -272,15 +274,17 @@
 	<!--Productos-->
 	<section class="productos" id="products">
 		<div class="container-fluid" id="product-list">
-			<div class="row">
-				<div class="col-6">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-6 d-none d-md-block">
 					<img src="../img/lapices.jpg" class="lapices">
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/boliSuper.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Bolígrafo Superheroes <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Bolígrafo Superheroes <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$45.00</p>
 						</div>
@@ -288,8 +292,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -300,11 +303,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/lapicerasFru.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Lápiceras frutas y verduras <button type="submit" class="btn btnMeGusta" id="meGusta" ><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Lápiceras frutas y verduras <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$198.00</p>
 						</div>
@@ -312,8 +317,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -325,12 +329,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-3 product">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/clipPer.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Clip personalizado <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Clip personalizado <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$120.00</p>
 						</div>
@@ -338,8 +344,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -350,11 +355,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/anotador.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Anotador Aanillos <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Anotador Aanillos <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$340.00</p>
 						</div>
@@ -362,8 +369,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -374,11 +380,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/maletaFri.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Maletas fibras X18 <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Maletas fibras X18 <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$360.00</p>
 						</div>
@@ -386,8 +394,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -398,11 +405,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/biromeVenti.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Birome ventilador <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Birome ventilador <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$120.00</p>
 						</div>
@@ -410,8 +419,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -423,12 +431,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-3 product">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/resaltadoresZ.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Resaltadores de Zanahoria <button type="submit" class="btn btnMeGusta"id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Resaltadores de Zanahoria <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$210.00</p>
 						</div>
@@ -436,8 +446,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -448,11 +457,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/cartuchera.jpg" class="card-img-top product-img" alt="...">
 					<div class="card-body">
-						<p class="product-title" class="card-text">Cartuchera multicolor <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
-						</button></p>
+						<p class="product-title" class="card-text">Cartuchera multicolor <button type="submit"
+								class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+									style='font-size:18px; color: red'></i>
+							</button></p>
 						<div>
 							<p class="product-price">$790.00</p>
 						</div>
@@ -460,8 +471,7 @@
 							<div class="row justify-content-center">
 								<div class="col-6" class="cart-info">
 									<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-											class='fas fa-shopping-cart'
-											style='font-size:14px; color: #fff854'></i></button>
+											class='fas fa-shopping-cart'></i></button>
 								</div>
 								<div class="col-6">
 									<button class="update-btn" value="-1">-</button>
@@ -472,9 +482,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/anotaPelu.jpg" class="card-img-top product-img" alt="...">
-					<p class="product-title" class="card-text">Anotador peluche <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
+					<p class="product-title" class="card-text">Anotador peluche <button type="submit"
+							class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+								style='font-size:18px; color: red'></i>
 						</button></p>
 					<div>
 						<p class="product-price">$390.00</p>
@@ -483,8 +495,7 @@
 						<div class="row justify-content-center">
 							<div class="col-6" class="cart-info">
 								<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-										class='fas fa-shopping-cart'
-										style='font-size:14px; color: #fff854'></i></button>
+										class='fas fa-shopping-cart'></i></button>
 							</div>
 							<div class="col-6">
 								<button class="update-btn" value="-1">-</button>
@@ -494,9 +505,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3 m-0 product">
+				<div class="col-12 col-md-3 product">
 					<img src="../img/goma.jpg" class="card-img-top product-img" alt="...">
-					<p class="product-title" class="card-text">Gomas de borrar donas <button type="submit" class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart" style='font-size:18px; color: red'></i>
+					<p class="product-title" class="card-text">Gomas de borrar donas <button type="submit"
+							class="btn btnMeGusta" id="meGusta"><i class="fas fa-heart"
+								style='font-size:18px; color: red'></i>
 						</button></p>
 					<div>
 						<p class="product-price">$90.00</p>
@@ -505,8 +518,7 @@
 						<div class="row justify-content-center">
 							<div class="col-6" class="cart-info">
 								<button type="submit" class="btn btn--black addToCart" id="btncart"><i
-										class='fas fa-shopping-cart'
-										style='font-size:14px; color: #fff854'></i></button>
+										class='fas fa-shopping-cart'></i></button>
 							</div>
 							<div class="col-6">
 								<button class="update-btn" value="-1">-</button>
