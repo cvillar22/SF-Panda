@@ -2,7 +2,7 @@ const carrito = JSON.parse(localStorage.getItem("carrito-compras"));
 
 const shoppingComprasContainer = document.querySelector('.compras');
 
-const pedidoBtn =  document.querySelector('.btn-success');
+const pedidoBtn =  document.querySelector('.btn--pedido');
 
 pedidoBtn.addEventListener('click', enviarPedido);
 
@@ -21,13 +21,13 @@ function addProductInCart(producto){
 		<div class="col-4"></div>
 		<div class="col-3">
 			<div>
-				<p>${producto.titulo}</p>
-				<p>$${producto.precio}</p>
+				<p style='font-size:18px; font-weight: bold'>${producto.titulo}</p>
+				<p style= 'font-weight: bold'>$${producto.precio}</p>
 			</div>
 		<div class="col-3">
 			<div>
-				<p>Cantidad: ${producto.cantidad}</p>
-				<p>Subtotal: $ ${producto.subtotal}</p>
+				<p  style= 'font-weight: bold'>Cantidad: ${producto.cantidad}</p>
+				<p  style= 'font-size:14px;font-weight: bold'>Subtotal:$${producto.subtotal} </p>
 			</div>
 		</div>
 	</div> `
