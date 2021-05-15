@@ -791,6 +791,10 @@ div.col-6.text-right h4 {
 }
 
 //! Productos
+#product-list {
+    max-width: 1519px;
+}
+
 .product {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0.2rem;
@@ -821,6 +825,11 @@ div.col-6.text-right h4 {
         -moz-appearance: textfield;
     }
 }
+
+.lapices {
+    max-width: 670.133px;
+}
+
 /*carritp*/
 button.btn--pedido {
     height: 55px;
