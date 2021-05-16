@@ -1,11 +1,12 @@
 
-const favoritos = JSON.parse(localStorage.getItem("favoritos-likes"));
+const favoritos = JSON.parse(localStorage.getItem("favoritos-likes")) || [];
 
-const meGustaContainer = document.querySelector('.meGustas');
+const meGustaContainer = document.querySelector(".meGustas");
 
 favoritos.forEach((producto)=>{
 	addProductInFav(producto);
 });
+
 function addProductInFav(producto){
 
 	const corazon = document.createElement('div');
@@ -18,7 +19,7 @@ function addProductInFav(producto){
 		<div class="col-3">
 			<div>
 				<p style='font-size:18px; font-weight: bold'>${producto.titulo}</p>
-				<p style= 'font-weight: bold'>$${producto.precio}</p>
+				<p style= 'font-weight: bold'>${producto.precio}</p>
 			</div>
 		<div class="col-3">
 	</div> `

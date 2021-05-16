@@ -1,4 +1,4 @@
-const carrito = JSON.parse(localStorage.getItem("carrito-compras"));
+const carrito = JSON.parse(localStorage.getItem("carrito-compras")) || [];
 
 const shoppingComprasContainer = document.querySelector('.compras');
 
