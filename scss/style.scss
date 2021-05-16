@@ -2,6 +2,9 @@
 html {
     //Para el return-to-top
     scroll-behavior: smooth;
+    a:hover {
+        text-decoration: none;
+    }
 }
 //General Fonts
 * {
@@ -293,6 +296,11 @@ footer {
             padding-right: 1rem;
         }
     }
+}
+
+.iconRed:hover {
+    fill: $amarilloPanda;
+    transition: 500ms;
 }
 
 //! ---Carousel---
@@ -811,19 +819,19 @@ div.col-6.text-right h4 {
         font-size: 20px;
         font-weight: 700;
     }
+}
 
-    .update-btn {
-        background: none;
-    }
+.update-btn {
+    background: none;
+}
 
-    .item-count {
-        background-color: #eeeeee;
-        opacity: 0.7;
-    }
-    //? Esconder flechas del input
-    input[type="number"] {
-        -moz-appearance: textfield;
-    }
+.item-count {
+    background-color: #eeeeee;
+    opacity: 0.7;
+}
+//? Esconder flechas del input
+input[type="number"] {
+    -moz-appearance: textfield;
 }
 
 .lapices {

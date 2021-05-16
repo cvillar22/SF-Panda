@@ -1,6 +1,8 @@
 @charset "UTF-8";
 html {
   scroll-behavior: smooth; }
+  html a:hover {
+    text-decoration: none; }
 
 * {
   font-family: "Raleway", sans-serif; }
@@ -221,6 +223,10 @@ footer {
     display: flex; }
     footer .medio-de-pago img {
       padding-right: 1rem; }
+
+.iconRed:hover {
+  fill: #f7d942;
+  transition: 500ms; }
 
 @media (max-width: 767px) {
   .carousel-card {
@@ -639,13 +645,16 @@ div.col-6.text-right h4 {
   .product .product-price {
     font-size: 20px;
     font-weight: 700; }
-  .product .update-btn {
-    background: none; }
-  .product .item-count {
-    background-color: #eeeeee;
-    opacity: 0.7; }
-  .product input[type="number"] {
-    -moz-appearance: textfield; }
+
+.update-btn {
+  background: none; }
+
+.item-count {
+  background-color: #eeeeee;
+  opacity: 0.7; }
+
+input[type="number"] {
+  -moz-appearance: textfield; }
 
 .lapices {
   max-width: 670.133px; }
