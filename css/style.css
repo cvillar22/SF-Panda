@@ -673,3 +673,41 @@ button.btnMeGusta {
   background-color: none;
   box-sizing: none;
   border-color: none; }
+
+.product-header .product-root {
+  display: flex;
+  align-items: center; }
+  .product-header .product-root span {
+    color: #ff351e;
+    font-weight: 500; }
+
+.product-header hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  max-width: 80%; }
+
+.product-main hr {
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.product-main .product-pictures .img-principal {
+  max-width: 386px; }
+
+.product-main .product-information .product-info-header h1 {
+  font-size: 44px;
+  font-weight: 500; }
+
+.product-main .product-information .product-info-header h5 {
+  font-size: 18px; }
+
+.product-main .product-information .product-info-middle p {
+  font-size: 18px; }
+  .product-main .product-information .product-info-middle p span {
+    font-weight: 700; }
+
+.product-main .product-information .product-info-middle .colores p {
+  background-color: #eeeeee;
+  opacity: 0.7;
+  padding: 0.25em 0.75em; }
+
+.product-main .product-information .product-info-middle .colores .color-active {
+  background-color: rgba(249, 226, 88, 0.2);
+  border: 1px solid #f9e258; }
