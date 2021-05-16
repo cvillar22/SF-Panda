@@ -2,6 +2,9 @@
 html {
     //Para el return-to-top
     scroll-behavior: smooth;
+    a {
+        color: inherit;
+    }
     a:hover {
         text-decoration: none;
     }
@@ -870,10 +873,11 @@ button.btnMeGusta {
     }
 }
 
+hr.product-divider {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 .product-main {
-    hr {
-        border: 1px solid rgba(0, 0, 0, 0.2);
-    }
     .product-pictures {
         .img-principal {
             max-width: 386px;
@@ -913,6 +917,13 @@ button.btnMeGusta {
             }
         }
         .product-info-footer {
+            .counter {
+                @media (max-width: 767.98px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
             .add-to-cart {
                 button {
                     font-weight: 700;
@@ -933,5 +944,12 @@ button.btnMeGusta {
                 }
             }
         }
+    }
+}
+
+.product-footer {
+    h3 {
+        font-size: 30px;
+        font-weight: 700;
     }
 }

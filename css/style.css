@@ -1,6 +1,8 @@
 @charset "UTF-8";
 html {
   scroll-behavior: smooth; }
+  html a {
+    color: inherit; }
   html a:hover {
     text-decoration: none; }
 
@@ -685,7 +687,7 @@ button.btnMeGusta {
   border: 1px solid rgba(0, 0, 0, 0.2);
   max-width: 80%; }
 
-.product-main hr {
+hr.product-divider {
   border: 1px solid rgba(0, 0, 0, 0.2); }
 
 .product-main .product-pictures .img-principal {
@@ -716,6 +718,12 @@ button.btnMeGusta {
   background-color: rgba(249, 226, 88, 0.2);
   border: 1px solid #f9e258; }
 
+@media (max-width: 767.98px) {
+  .product-main .product-information .product-info-footer .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 .product-main .product-information .product-info-footer .add-to-cart button {
   font-weight: 700; }
 
@@ -730,3 +738,7 @@ button.btnMeGusta {
 .product-main .product-information .product-info-footer .add-to-liked button:hover {
   background-color: #f7d942;
   color: #ff6047; }
+
+.product-footer h3 {
+  font-size: 30px;
+  font-weight: 700; }
