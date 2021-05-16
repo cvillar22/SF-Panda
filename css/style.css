@@ -715,3 +715,18 @@ button.btnMeGusta {
 .product-main .product-information .product-info-middle .colores .color-active {
   background-color: rgba(249, 226, 88, 0.2);
   border: 1px solid #f9e258; }
+
+.product-main .product-information .product-info-footer .add-to-cart button {
+  font-weight: 700; }
+
+.product-main .product-information .product-info-footer .add-to-liked button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.7rem;
+  height: 3rem;
+  color: #f7d942; }
+
+.product-main .product-information .product-info-footer .add-to-liked button:hover {
+  background-color: #f7d942;
+  color: #ff6047; }
