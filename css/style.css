@@ -699,14 +699,18 @@ button.btnMeGusta {
   font-size: 18px; }
 
 .product-main .product-information .product-info-middle p {
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 0.5em; }
   .product-main .product-information .product-info-middle p span {
     font-weight: 700; }
 
 .product-main .product-information .product-info-middle .colores p {
   background-color: #eeeeee;
   opacity: 0.7;
-  padding: 0.25em 0.75em; }
+  padding: 0.2em 0.75em; }
+
+.product-main .product-information .product-info-middle .colores p:hover {
+  cursor: pointer; }
 
 .product-main .product-information .product-info-middle .colores .color-active {
   background-color: rgba(249, 226, 88, 0.2);
