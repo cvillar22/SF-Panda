@@ -6,6 +6,9 @@ html {
   html a:hover {
     text-decoration: none; }
 
+body {
+  overflow-x: hidden; }
+
 * {
   font-family: "Raleway", sans-serif; }
 
