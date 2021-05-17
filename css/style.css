@@ -667,10 +667,20 @@ input[type="number"] {
 /*carritp*/
 button.btn--pedido {
   height: 55px;
-  width: 250px;
+  width: 260px;
   border-radius: 30px;
   background-color: #313638;
-  color: #f7d942; }
+  color: #f7d942;
+  font-size: 18px;
+  font-weight: 700; }
+  button.btn--pedido i {
+    color: #f7d942; }
+
+button.btn--pedido:hover {
+  background-color: #f7d942;
+  color: #313638; }
+  button.btn--pedido:hover i {
+    color: #313638; }
 
 button.btnMeGusta {
   border: none;

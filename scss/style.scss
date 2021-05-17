@@ -847,10 +847,22 @@ input[type="number"] {
 /*carritp*/
 button.btn--pedido {
     height: 55px;
-    width: 250px;
+    width: 260px;
     border-radius: 30px;
     background-color: #313638;
     color: $amarilloPanda;
+    font-size: 18px;
+    font-weight: 700;
+    i {
+        color: $amarilloPanda;
+    }
+}
+button.btn--pedido:hover {
+    background-color: $amarilloPanda;
+    color: $negroPanda;
+    i {
+        color: $negroPanda;
+    }
 }
 button.btnMeGusta {
     border: none;
