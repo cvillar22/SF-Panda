@@ -35,7 +35,7 @@
 			</button>
 			<span>
 				<div>
-					<a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+					<img class="logo" src="../img/logo.png" alt="logo">
 				</div>
 			</span>
 			<div class="form-group" id="NavSearch" class="col-4 justify-content-center p-4">
@@ -46,41 +46,48 @@
 				</div>
 			</div>
 			<div class="iconosNav col-4 justify-content-center">
-				<button style="border:0px; background-color: transparent;"class="btnQuestion">
-					<div class="iconoNav p-4"><a href="descMayoristas.html"><i class='fas fa-question-circle' style='font-size:24px; color: #fff'></i></a>
+				<button style="border:0px; background-color: transparent;" class="btnQuestion">
+					<div class="iconoNav p-4"><a href="pag/descMayoristas.html"><i class='fas fa-question-circle'
+								style='font-size:24px; color: #fff'></i></a>
 					</div>
 				</button>
-				<button onclick="document.getElementById('id01').style.display='block'" style="border:0px; background-color: transparent;"style="border:0px; background-color: transparent;" class="btnUser">
+				<button onclick="document.getElementById('id01').style.display='block'"
+					style="border:0px; background-color: transparent;"
+					style="border:0px; background-color: transparent;" class="btnUser">
 					<div class="iconoNav p-4"><i class='fas fa-user' style='font-size:24px; color: #fff'></i></div>
 				</button>
-				<div id="id01" class="modal">
- 					  <form class="modal-content animate" action="/action_page.php" method="post">
-					    <div class="imgcontainer">
-					      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-					    </div>
-					    <div class="container">
-					      <label for="uname"><b>Usuario</b></label>
-					      <input type="text" placeholder="Enter Username" name="uname" required>
+				<div id="id01" class="nav-modal">
+					<form class="modal-content animate" action="/action_page.php" method="post">
+						<div class="imgcontainer">
+							<span onclick="document.getElementById('id01').style.display='none'" class="nav-close"
+								title="Close Modal">&times;</span>
+						</div>
+						<div class="container">
+							<label for="uname"><b>Usuario</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
 
-					      <label for="psw"><b>Contraseña</b></label>
-					      <input type="password" placeholder="Enter Password" name="psw" required>
-					      <button class="btnSubLog" type="submit">Login</button>
-					      <label>
-					        <input type="checkbox" checked="checked" name="remember"> Recordarme
-					      </label>
-    					</div>
+							<label for="psw"><b>Contraseña</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+							<button class="btnSubLog" type="submit">Login</button>
+							<label>
+								<input type="checkbox" checked="checked" name="remember"> Recordarme
+							</label>
+						</div>
 						<div class="container" style="background-color:#f1f1f1">
-     						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-     				 		<span class="psw">Olvidé <a href="#">contraseña?</a></span>
-    					</div>
- 					 </form>
-					</div>
-				
+							<button type="button" onclick="document.getElementById('id01').style.display='none'"
+								class="cancelbtn">Cancelar</button>
+							<span class="psw"><a href="#">Olvidó su contraseña?</a></span>
+						</div>
+					</form>
+				</div>
 				<button style="border:0px; background-color: transparent;" class="btnHeart">
-					<div class="iconoNav p-4"><i class='fas fa-heart' style='font-size:24px; color: #fff'></i></div>
+					<div class="iconoNav p-4"><a href="pag/favoritos.html"><i class='fas fa-heart'
+								style='font-size:24px; color: #fff'></i></a>
+					</div>
 				</button>
 				<button style="border:0px; background-color: transparent;" class="btnCart">
-					<div class="iconoNav p-4"><i class='fas fa-shopping-cart' style='font-size:24px; color: #fff'></i>
+					<div class="iconoNav p-4"><a href="pag/carrito.html"><i class='fas fa-shopping-cart'
+								style='font-size:24px; color: #fff'></i></a>
 					</div>
 				</button>
 			</div>
@@ -92,14 +99,14 @@
 						<button style="border:0px; background-color: transparent;font-size:24px;" class="cerrar"><i
 								class="fas fa-times"></i></button>
 					</div>
-					<div class="col-8"><img class="logoMenu" src="../img/panda-popup.png" alt="logo"></div>
+					<div class="col-8"><img class="logoMenu" src="img/panda-popup.png" alt="logo"></div>
 					<div class="col-8 offset-sm-4">
 						<ul class="secciones1">
 							<li><a href="">Productos de temporada</a></li>
 							<li><a href="">Novedades</a></li>
 							<li><a href="">Promociones</a></li>
 							<li>
-								<a class="atCliente" href="atencionCliente.html">Atencion al cliente</a>
+								<a class="atCliente" href="pag/atencionCliente.html">Atencion al cliente</a>
 								<div class="submenu1 row">
 									<ul class="col-12">
 										<li><a href="">¿Cómo comprar?</a></li>
@@ -109,7 +116,7 @@
 										<li><a href="">Descuento Mayorista</a>
 											<br>
 											<br>
-										
+
 										<li><a style="font-weight: bold" href="">Medios de pago</a></li>
 										<li><a style="font-weight: bold" href="">Contáctanos</a></li>
 										<li><a style="font-weight: bold" href="">Devoluciones</a></li>
@@ -118,7 +125,7 @@
 							</li>
 						</ul>
 						<ul class="secciones2">
-							<li >
+							<li>
 								<a class="hoYja" href="">Hogar & Jardin</a>
 								<div class="submenu2 container">
 									<div class="row">
@@ -130,8 +137,8 @@
 												<li><a href="">Herramientas</a></li>
 												<li><a href="">Flores</a></li>
 												<li><a href="">Otros</a></li>
-											<br>
-												<li><a style="font-weight: bold"href="">Baño</a></li>
+												<br>
+												<li><a style="font-weight: bold" href="">Baño</a></li>
 												<br>
 												<li><a href="">Textiles</a></li>
 												<li><a href="">Accesorios</a></li>
@@ -143,7 +150,7 @@
 												<br>
 												<li><a href="">Almacenaje</a></li>
 												<li><a href="">Utensilios</a></li>
-											<br>
+												<br>
 												<li><a style="font-weight: bold" href="">Decoración</a></li>
 												<br>
 												<li><a href="">De Pared</a></li>
@@ -183,10 +190,10 @@
 												<li><a href="">Pañuelos</a></li>
 												<li><a href="">Collares y Pulseras</a></li>
 												<li><a href="">Colgantes</a></li>
-											<br>
-											<br>
-											<br>
-											<br>
+												<br>
+												<br>
+												<br>
+												<br>
 												<li><a style="font-weight: bold" href="">Ropa interior femenina</a></li>
 											</ul>
 										</div>
@@ -194,17 +201,17 @@
 								</div>
 							</li>
 							<li>
-								<a class="liYco" href="libreria.html">Librería & Cotillon</a>
+								<a class="liYco" href="pag/libreria.html">Librería & Cotillon</a>
 								<div class="submenu4 container">
 									<div class="row">
 										<div class="col-lg-6 col-sm-6">
 											<ul>
-												<li><a style="font-weight: bold"href="">Oficina</a></li>
+												<li><a style="font-weight: bold" href="">Oficina</a></li>
 												<br>
 												<li><a href="">Accesorios de Escritorio</a></li>
 												<li><a href="">Cuadernos</a></li>
 												<li><a href="">Dibujo & Pintura</a></li>
-											<br>
+												<br>
 												<li><a style="font-weight: bold" href="">Cotillón/Fiesta</a></li>
 												<br>
 												<li><a href="">Souvenir</a></li>
@@ -220,7 +227,7 @@
 												<li><a href="">Cajas</a></li>
 												<li><a href="">Bolsas</a></li>
 												<li><a href="">Tarjetas</a></li>
-										<br>
+												<br>
 												<li><a style="font-weight: bold" href="">Vuelta al Cole</a></li>
 												<br>
 												<li><a href="">Libro infantiles</a></li>
@@ -251,47 +258,47 @@
 	</section>
 	<section>
 		<div class="container">
-			<div class="row p-3"style="border-bottom: 0.25px solid #d9d9d9;">
-				<div class="col-12" >
-				<h4>Atención al cliente <a href="" style="color:red">/Descuentos mayoristas</a></h4></span>
-				</div>	
+			<div class="row p-3" style="border-bottom: 0.25px solid #d9d9d9;">
+				<div class="col-12">
+					<h4>Atención al cliente <a href="" style="color:red">/Descuentos mayoristas</a></h4></span>
+				</div>
 			</div>
 			<div class="row p-5">
-				<div class="col-12 align-items-center text-center p-5" >
+				<div class="col-12 align-items-center text-center p-5">
 					<img src="../img/tabla.jpg" alt="">
 				</div>
 			</div>
 	</section>
 	<!-- NewsLetters-->
 	<div class="container-fluid banner-newsletter">
-			<div class="row pt-4 pb-4 align-items-center text-center">
-				<div class="col-md-4 col-sm-12">
-					<h3>¡Enterate Primero!</h3>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<h5>Suscribite a nuestro newsletter y recibí todas
-						las novedades y las mejores ofertas y promociones</h5>
-				</div>
-				<div class="col-md-4 col-sm-12 newsletter-email">
-					<form>
-						<div class="form-row">
-							<div class="input-email col-12 d-flex">
-								<label class="sr-only" for="emailInput"></label>
-								<input type="email" class="form-control pl-4" id="emailInput"
-									placeholder="Escribí tu e-mail acá">
-								<button type="submit" class="btn btn--black txt--yellow" id="btnEmail">✉</button>
-							</div>
+		<div class="row pt-4 pb-4 align-items-center text-center">
+			<div class="col-md-4 col-sm-12">
+				<h3>¡Enterate Primero!</h3>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h5>Suscribite a nuestro newsletter y recibí todas
+					las novedades y las mejores ofertas y promociones</h5>
+			</div>
+			<div class="col-md-4 col-sm-12 newsletter-email">
+				<form>
+					<div class="form-row">
+						<div class="input-email col-12 d-flex">
+							<label class="sr-only" for="emailInput"></label>
+							<input type="email" class="form-control pl-4" id="emailInput"
+								placeholder="Escribí tu e-mail acá">
+							<button type="submit" class="btn btn--black txt--yellow" id="btnEmail">✉</button>
 						</div>
-					</form>
-				</div>
+					</div>
+				</form>
 			</div>
 		</div>
-		</div>
-		</div>
-		</div>
+	</div>
+	</div>
+	</div>
+	</div>
 	<!--Footter</!-->
 	<!--! ----------------Footer--------------- -->
-	<footer class="pt-2">
+	<footer class="pt-4 pb-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 col-md-3 footer-col">
@@ -301,29 +308,29 @@
 						<p class="footer--titulo">VISITANOS</p>
 						<div class="logos-redes">
 							<div class="logo-facebook">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								<svg class="iconRed" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
-										d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z"
-										fill="#fff854"></path>
+										d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z">
+									</path>
 								</svg>
 
 							</div>
 							<div class="logo-instagram">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								<svg class="iconRed" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
-										d="M12.002 21.041C9.54195 21.041 9.25195 21.028 8.29195 20.986C7.54332 20.9614 6.80439 20.8092 6.10695 20.536C4.90026 20.0664 3.94609 19.1119 3.47695 17.905C3.21426 17.205 3.07257 16.4655 3.05795 15.718C3.00195 14.76 3.00195 14.446 3.00195 12.005C3.00195 9.538 3.01495 9.25 3.05795 8.295C3.07289 7.54853 3.21457 6.81001 3.47695 6.111C3.94558 4.90253 4.9013 3.94718 6.10995 3.479C6.8086 3.21521 7.5473 3.07315 8.29395 3.059C9.24895 3.005 9.56295 3.005 12.002 3.005C14.482 3.005 14.767 3.018 15.712 3.059C16.4605 3.07327 17.2012 3.21531 17.902 3.479C19.1103 3.94771 20.0658 4.90288 20.535 6.111C20.8021 6.8202 20.9445 7.57026 20.956 8.328C21.012 9.286 21.012 9.59901 21.012 12.039C21.012 14.479 20.998 14.799 20.956 15.746C20.9411 16.4942 20.799 17.2344 20.536 17.935C20.0656 19.1427 19.11 20.0976 17.902 20.567C17.2022 20.8292 16.4631 20.9709 15.716 20.986C14.761 21.041 14.448 21.041 12.002 21.041ZM11.968 4.588C9.52195 4.588 9.26795 4.6 8.31295 4.643C7.74294 4.65056 7.17843 4.75575 6.64395 4.954C5.85471 5.25601 5.23018 5.878 4.92495 6.666C4.72517 7.2063 4.61996 7.77698 4.61395 8.353C4.56095 9.322 4.56095 9.576 4.56095 12.005C4.56095 14.405 4.56995 14.696 4.61395 15.659C4.62291 16.2292 4.72805 16.7938 4.92495 17.329C5.23063 18.1165 5.85505 18.738 6.64395 19.04C7.17807 19.2396 7.7428 19.3448 8.31295 19.351C9.28095 19.407 9.53595 19.407 11.968 19.407C14.421 19.407 14.675 19.395 15.622 19.351C16.1924 19.3441 16.7573 19.2389 17.292 19.04C18.0764 18.7354 18.6969 18.1153 19.002 17.331C19.2014 16.7903 19.3065 16.2193 19.313 15.643H19.324C19.367 14.687 19.367 14.432 19.367 11.989C19.367 9.54601 19.356 9.289 19.313 8.334C19.304 7.76446 19.1988 7.20052 19.002 6.666C18.6976 5.88058 18.077 5.2593 17.292 4.954C16.7574 4.75475 16.1924 4.64953 15.622 4.643C14.655 4.588 14.402 4.588 11.968 4.588ZM12.002 16.624C10.1319 16.6252 8.44537 15.4997 7.72882 13.7725C7.01226 12.0452 7.40686 10.0563 8.72858 8.73347C10.0503 7.4106 12.0388 7.01428 13.7667 7.72934C15.4946 8.4444 16.6215 10.13 16.622 12C16.6192 14.5511 14.553 16.619 12.002 16.624ZM12.002 8.998C10.3451 8.998 9.00195 10.3412 9.00195 11.998C9.00195 13.6549 10.3451 14.998 12.002 14.998C13.6588 14.998 15.002 13.6549 15.002 11.998C14.9981 10.3427 13.6572 9.00185 12.002 8.998ZM16.802 8.28501C16.2074 8.2828 15.7269 7.79959 15.728 7.20501C15.7291 6.61043 16.2114 6.12901 16.806 6.12901C17.4005 6.12901 17.8828 6.61042 17.884 7.205C17.8842 7.49187 17.7702 7.76703 17.5672 7.96968C17.3642 8.17234 17.0888 8.2858 16.802 8.28501Z"
-										fill="#fff854"></path>
+										d="M12.002 21.041C9.54195 21.041 9.25195 21.028 8.29195 20.986C7.54332 20.9614 6.80439 20.8092 6.10695 20.536C4.90026 20.0664 3.94609 19.1119 3.47695 17.905C3.21426 17.205 3.07257 16.4655 3.05795 15.718C3.00195 14.76 3.00195 14.446 3.00195 12.005C3.00195 9.538 3.01495 9.25 3.05795 8.295C3.07289 7.54853 3.21457 6.81001 3.47695 6.111C3.94558 4.90253 4.9013 3.94718 6.10995 3.479C6.8086 3.21521 7.5473 3.07315 8.29395 3.059C9.24895 3.005 9.56295 3.005 12.002 3.005C14.482 3.005 14.767 3.018 15.712 3.059C16.4605 3.07327 17.2012 3.21531 17.902 3.479C19.1103 3.94771 20.0658 4.90288 20.535 6.111C20.8021 6.8202 20.9445 7.57026 20.956 8.328C21.012 9.286 21.012 9.59901 21.012 12.039C21.012 14.479 20.998 14.799 20.956 15.746C20.9411 16.4942 20.799 17.2344 20.536 17.935C20.0656 19.1427 19.11 20.0976 17.902 20.567C17.2022 20.8292 16.4631 20.9709 15.716 20.986C14.761 21.041 14.448 21.041 12.002 21.041ZM11.968 4.588C9.52195 4.588 9.26795 4.6 8.31295 4.643C7.74294 4.65056 7.17843 4.75575 6.64395 4.954C5.85471 5.25601 5.23018 5.878 4.92495 6.666C4.72517 7.2063 4.61996 7.77698 4.61395 8.353C4.56095 9.322 4.56095 9.576 4.56095 12.005C4.56095 14.405 4.56995 14.696 4.61395 15.659C4.62291 16.2292 4.72805 16.7938 4.92495 17.329C5.23063 18.1165 5.85505 18.738 6.64395 19.04C7.17807 19.2396 7.7428 19.3448 8.31295 19.351C9.28095 19.407 9.53595 19.407 11.968 19.407C14.421 19.407 14.675 19.395 15.622 19.351C16.1924 19.3441 16.7573 19.2389 17.292 19.04C18.0764 18.7354 18.6969 18.1153 19.002 17.331C19.2014 16.7903 19.3065 16.2193 19.313 15.643H19.324C19.367 14.687 19.367 14.432 19.367 11.989C19.367 9.54601 19.356 9.289 19.313 8.334C19.304 7.76446 19.1988 7.20052 19.002 6.666C18.6976 5.88058 18.077 5.2593 17.292 4.954C16.7574 4.75475 16.1924 4.64953 15.622 4.643C14.655 4.588 14.402 4.588 11.968 4.588ZM12.002 16.624C10.1319 16.6252 8.44537 15.4997 7.72882 13.7725C7.01226 12.0452 7.40686 10.0563 8.72858 8.73347C10.0503 7.4106 12.0388 7.01428 13.7667 7.72934C15.4946 8.4444 16.6215 10.13 16.622 12C16.6192 14.5511 14.553 16.619 12.002 16.624ZM12.002 8.998C10.3451 8.998 9.00195 10.3412 9.00195 11.998C9.00195 13.6549 10.3451 14.998 12.002 14.998C13.6588 14.998 15.002 13.6549 15.002 11.998C14.9981 10.3427 13.6572 9.00185 12.002 8.998ZM16.802 8.28501C16.2074 8.2828 15.7269 7.79959 15.728 7.20501C15.7291 6.61043 16.2114 6.12901 16.806 6.12901C17.4005 6.12901 17.8828 6.61042 17.884 7.205C17.8842 7.49187 17.7702 7.76703 17.5672 7.96968C17.3642 8.17234 17.0888 8.2858 16.802 8.28501Z">
+									</path>
 								</svg>
 
 							</div>
 							<div class="logo-youtube">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								<svg class="iconRed" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
-										d="M12.006 19.012H11.986C11.924 19.012 5.721 19 4.156 18.575C3.29543 18.3432 2.62335 17.6707 2.392 16.81C2.11058 15.2224 1.97469 13.6123 1.986 12C1.97873 10.385 2.11831 8.77271 2.403 7.183C2.64071 6.32151 3.30983 5.64595 4.169 5.4C5.691 5 11.723 5 11.979 5H12C12.063 5 18.282 5.012 19.831 5.437C20.6898 5.67001 21.3605 6.3411 21.593 7.2C21.8834 8.79354 22.0197 10.4113 22 12.031C22.007 13.644 21.8671 15.2543 21.582 16.842C21.3477 17.7016 20.6752 18.3726 19.815 18.605C18.295 19.008 12.262 19.012 12.006 19.012ZM10.006 9.005L10.001 15.005L15.213 12.005L10.006 9.005Z"
-										fill="#fff854"></path>
+										d="M12.006 19.012H11.986C11.924 19.012 5.721 19 4.156 18.575C3.29543 18.3432 2.62335 17.6707 2.392 16.81C2.11058 15.2224 1.97469 13.6123 1.986 12C1.97873 10.385 2.11831 8.77271 2.403 7.183C2.64071 6.32151 3.30983 5.64595 4.169 5.4C5.691 5 11.723 5 11.979 5H12C12.063 5 18.282 5.012 19.831 5.437C20.6898 5.67001 21.3605 6.3411 21.593 7.2C21.8834 8.79354 22.0197 10.4113 22 12.031C22.007 13.644 21.8671 15.2543 21.582 16.842C21.3477 17.7016 20.6752 18.3726 19.815 18.605C18.295 19.008 12.262 19.012 12.006 19.012ZM10.006 9.005L10.001 15.005L15.213 12.005L10.006 9.005Z">
+									</path>
 								</svg>
 
 							</div>
